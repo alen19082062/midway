@@ -41,8 +41,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="46">
-                <caret line="2" column="63" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
+              <first_editor relative-caret-position="161">
+                <caret line="7" column="70" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
               </first_editor>
               <second_editor />
             </state>
@@ -304,12 +304,12 @@
       <workItem from="1548758937825" duration="243000" />
       <workItem from="1548759389071" duration="2419000" />
       <workItem from="1549979647469" duration="1609000" />
-      <workItem from="1549985081205" duration="3292000" />
+      <workItem from="1549985081205" duration="3510000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27147000" />
+    <option name="totallyTimeSpent" value="27365000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1384" height="716" extended-state="6" />
@@ -1038,8 +1038,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="46">
-            <caret line="2" column="63" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
+          <first_editor relative-caret-position="161">
+            <caret line="7" column="70" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
           </first_editor>
           <second_editor />
         </state>

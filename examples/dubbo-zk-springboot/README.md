@@ -4,8 +4,8 @@ Dubbo是一个高性能优秀的服务框架，使得应用可通过高性能的
 
 ## **一、运行工具与环境**
 
-运行环境：JDK 8，Maven 3.6
-技术栈：SpringBoot 2.1.2、Dubbo 2.6.2、ZooKeeper 3.5.4,dubbo-starter 0.2.0 
+运行环境：JDK 8，Maven 3.6  
+技术栈：SpringBoot 2.1.2、Dubbo 2.6.2、ZooKeeper 3.5.4,dubbo-starter 0.2.0  
 工具：IntelliJ IDEA、谷歌浏览器
 
 ## **二、Springboot快速集成Dubbo关键的依赖**
