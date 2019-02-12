@@ -103,7 +103,4 @@ bean count = 45
 45 : beanName:ServiceBean:demoServiceImpl:com.gg.api.service.hello.DemoService:${demo.service.version}
 ====================== 
 ```
-## **五、总结**
-Dubbo的重新维护，不切实际疯狂维护，给RPC又添加了生机，结合Springboot，也许你会发现，Dubbo入门并没有那么困难，只是你想不想学。
-
 
