@@ -1,10 +1,11 @@
-## 环境 
+## 2019-2-12 计划  
 
 ### dubbo  + zookeeper
 
 + JDK 1.8 
 + spring boot  2.1.2 
 + dubbo 2.6.5  或者 2.7 
++ rocket mq 4.4  消息中间件 
 + zookeeper 3.4.13 服务注册
 + 不使用分布式配置 （配置项开始时不会多）  
 + 负载均衡及熔断服务　
