@@ -52,6 +52,57 @@ Dubbo是一个高性能优秀的服务框架，使得应用可通过高性能的
 
 ![Dubbo浏览器显示结果](http://wx4.sinaimg.cn/large/cf495cdcgy1fss496cbz4j20hu0apdfv.jpg)
 
+
+加载的 bean 比较少 
+```======================   
+bean count = 45  
+1 : beanName:org.springframework.context.annotation.internalConfigurationAnnotationProcessor  
+2 : beanName:org.springframework.context.annotation.internalAutowiredAnnotationProcessor  
+3 : beanName:org.springframework.context.annotation.internalCommonAnnotationProcessor  
+4 : beanName:org.springframework.context.event.internalEventListenerProcessor  
+5 : beanName:org.springframework.context.event.internalEventListenerFactory  
+6 : beanName:dubboProviderApplication  
+7 : beanName:org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory  
+8 : beanName:com.alibaba.dubbo.config.spring.context.annotation.DubboConfigConfiguration$Single  
+9 : beanName:com.alibaba.dubbo.config.ApplicationConfig#0  
+10 : beanName:com.alibaba.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor#0  
+11 : beanName:com.alibaba.dubbo.config.RegistryConfig#0  
+12 : beanName:com.alibaba.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor#1  
+13 : beanName:com.alibaba.dubbo.config.ProtocolConfig#0  
+14 : beanName:com.alibaba.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor#2  
+15 : beanName:com.alibaba.dubbo.config.ProviderConfig#0  
+16 : beanName:com.alibaba.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor#3  
+17 : beanName:com.alibaba.dubbo.config.spring.beans.factory.annotation.ServiceAnnotationBeanPostProcessor#0  
+18 : beanName:referenceAnnotationBeanPostProcessor  
+19 : beanName:org.springframework.boot.autoconfigure.AutoConfigurationPackages  
+20 : beanName:org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration  
+21 : beanName:org.springframework.boot.autoconfigure.condition.BeanTypeRegistry  
+22 : beanName:propertySourcesPlaceholderConfigurer  
+23 : beanName:com.alibaba.boot.dubbo.autoconfigure.DubboAutoConfiguration$SingleDubboConfigConfiguration  
+24 : beanName:com.alibaba.boot.dubbo.autoconfigure.DubboAutoConfiguration  
+25 : beanName:relaxedDubboConfigBinder  
+26 : beanName:org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration  
+27 : beanName:mbeanExporter  
+28 : beanName:objectNamingStrategy  
+29 : beanName:mbeanServer  
+30 : beanName:org.springframework.boot.autoconfigure.admin.SpringApplicationAdminJmxAutoConfiguration  
+31 : beanName:springApplicationAdminRegistrar  
+32 : beanName:org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration  
+33 : beanName:org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor  
+34 : beanName:org.springframework.boot.context.properties.ConfigurationBeanFactoryMetadata  
+35 : beanName:org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration  
+36 : beanName:spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties
+37 : beanName:org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration
+38 : beanName:taskExecutorBuilder
+39 : beanName:applicationTaskExecutor
+40 : beanName:spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties
+41 : beanName:org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration
+42 : beanName:taskSchedulerBuilder
+43 : beanName:spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties
+44 : beanName:demoServiceImpl
+45 : beanName:ServiceBean:demoServiceImpl:com.gg.api.service.hello.DemoService:${demo.service.version}
+====================== 
+```
 ## **五、总结**
 Dubbo的重新维护，不切实际疯狂维护，给RPC又添加了生机，结合Springboot，也许你会发现，Dubbo入门并没有那么困难，只是你想不想学。
 
