@@ -37,12 +37,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SECOND">
-              <first_editor relative-caret-position="-253">
-                <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="306">
+                <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
               </first_editor>
               <second_editor />
             </state>
@@ -114,7 +114,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/readme.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -147,6 +147,7 @@
         <option value="$PROJECT_DIR$/dubbo-provider/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/readme.txt" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -203,20 +204,6 @@
             <path>
               <item name="dubbo-zk-springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="dubbo-zk-springboot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo-zk-springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo-zk-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo-zk-springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo-zk-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-consumer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo-zk-springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -317,12 +304,12 @@
       <workItem from="1548758937825" duration="243000" />
       <workItem from="1548759389071" duration="2419000" />
       <workItem from="1549979647469" duration="1609000" />
-      <workItem from="1549985081205" duration="2726000" />
+      <workItem from="1549985081205" duration="3113000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26581000" />
+    <option name="totallyTimeSpent" value="26968000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1384" height="716" extended-state="6" />
@@ -968,16 +955,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="-253">
-            <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/java/com/gg/consumer/web/DubboConsumerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -1055,6 +1032,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="306">
+            <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
