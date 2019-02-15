@@ -75,22 +75,24 @@ dubbo.monitor.protocol = registry
 
 **服务提供者：**
 
-简单来说就是将上面接口的实现方法（称之为服用）注册到zookeeper上，并暴露端口供其他消费者消费。@Service里面的一些信息就是服务具体的注册地址。
+简单来说就是将上面接口的实现方法（称之为服用）注册到zookeeper上，并暴露端口供其他消费者消费。  
+@Service里面的一些信息就是服务具体的注册地址。
 
 **服务消费者：**
 
-如上@Reference的直接表示远程调用，里面最重要的是url，表示要调用的地址，也就是上面服务暴露的地址。
-
-POM.XML 增加，可以通过 http://127.0.0.1:9091/actuator/ 访问 （会增加 100 多个 bean) 
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
-        </dependency>
+```
+        // 可以正常工作
+        FlowRule rule2 = new FlowRule();
+        rule2.setResource("com.gg.api.service.hello.HelloService:hi(java.lang.String)");
+        rule2.setGrade(RuleConstant.FLOW_GRADE_QPS);
+        rule2.setCount(1);
+        rule2.setLimitApp("default");
+        FlowRuleManager.loadRules(Collections.singletonList(rule2)); 
+```
 
 ## **四、运行项目**
 
-首先启动服务提供者，在启动服务调用者，打开谷歌浏览器，输入[http://localhost:9091/sayHello/HelloWorld](http://localhost:9091/sayHello/HelloWorld)
+首先启动服务提供者，在启动服务调用者，打开谷歌浏览器，输入[http://localhost:9091/hello/allen](http://localhost:9091/hello/allen)  
 
-![Dubbo浏览器显示结果](http://wx4.sinaimg.cn/large/cf495cdcgy1fss496cbz4j20hu0apdfv.jpg)
-
- 
+启动控制台 
+D:\dev\sentinel>java -Dserver.port=8080 -Dcsp.sentinel.dashboard.server=localhost:8080 -Dproject.name=sentinel-dashboard -jar sentinel-dashboard-1.4.1.jar   

@@ -41,7 +41,7 @@ public class HelloServiceImpl implements HelloService {
         System.out.println("service name = " + serviceName );
         System.out.println("name = " + name );
         LocalDateTime ldt=LocalDateTime.now();
-        DateTimeFormatter format=DateTimeFormatter.ofPattern("yyyy-MM-dd hh:mm:ss SSS");
+        DateTimeFormatter format=DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss SSS");
         String timeStr=ldt.format(format);
         String str = String.format("[%S] Hello, %s ==> %s / %s / %s ",timeStr, name, serviceName,serviceGroup,serviceVersion );
         return str ;
@@ -52,7 +52,7 @@ public class HelloServiceImpl implements HelloService {
         System.out.println("service name = " + serviceName );
         System.out.println("name = " + name );
         LocalDateTime ldt=LocalDateTime.now();
-        DateTimeFormatter format=DateTimeFormatter.ofPattern("yyyy-MM-dd hh:mm:ss SSS");
+        DateTimeFormatter format=DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss SSS");
         String timeStr=ldt.format(format);
         String str = String.format("[%S] Bye, %s ==> %s / %s / %s ",timeStr, name, serviceName,serviceGroup,serviceVersion );
         return str ;
@@ -69,7 +69,7 @@ public class HelloServiceImpl implements HelloService {
         nacosVersion = "0.8.0";
 
         LocalDateTime ldt=LocalDateTime.now();
-        DateTimeFormatter format=DateTimeFormatter.ofPattern("yyyy-MM-dd hh:mm:ss SSS");
+        DateTimeFormatter format=DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss SSS");
         String timeStr=ldt.format(format);
         Map<String,String> map = new HashMap();
         map.put("now_time",timeStr);

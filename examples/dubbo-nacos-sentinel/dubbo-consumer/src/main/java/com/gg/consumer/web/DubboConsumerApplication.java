@@ -1,11 +1,16 @@
 package com.gg.consumer.web;
 
+import com.alibaba.csp.sentinel.slots.block.RuleConstant;
+import com.alibaba.csp.sentinel.slots.block.flow.FlowRule;
+import com.alibaba.csp.sentinel.slots.block.flow.FlowRuleManager;
 import com.alibaba.dubbo.config.spring.context.annotation.EnableDubbo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
+import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
 /**
  * DubboConsumerApplication
@@ -14,6 +19,33 @@ import java.util.Collections;
 @EnableDubbo
 @SpringBootApplication
 public class DubboConsumerApplication {
+
+    private static void initFlowRules(){
+        System.out.println("====================== initFlowRules() " );
+
+        /*
+        // 定义了资源 HelloWorld 每秒最多只能通过 2 个请求。
+        // 无法正常工作
+        List<FlowRule> rules = new ArrayList<>();
+        FlowRule rule = new FlowRule();
+        rule.setResource("bye");
+        rule.setGrade(RuleConstant.FLOW_GRADE_QPS);
+        // Set limit QPS to 2.
+        rule.setCount(1);
+        rule.setLimitApp("default");
+        rules.add(rule);
+        FlowRuleManager.loadRules(rules);
+        */
+
+        // 可以正常工作
+        FlowRule rule2 = new FlowRule();
+        rule2.setResource("com.gg.api.service.hello.HelloService:hi(java.lang.String)");
+        rule2.setGrade(RuleConstant.FLOW_GRADE_QPS);
+        rule2.setCount(1);
+        rule2.setLimitApp("default");
+        FlowRuleManager.loadRules(Collections.singletonList(rule2));
+
+    }
 
     public static void main(String[] args) {
         ApplicationContext ctx = SpringApplication.run(DubboConsumerApplication.class, args);
@@ -30,13 +62,10 @@ public class DubboConsumerApplication {
             System.out.println(print_str);
         }
         System.out.println("====================== " );
+
+        DubboConsumerApplication.initFlowRules();
+
     }
 
-    FlowRule flowRule = new FlowRule();
-		flowRule.setResource(
-                "org.springframework.cloud.alibaba.cloud.examples.FooService:hello(java.lang.String)");
-		flowRule.setCount(10);
-		flowRule.setGrade(RuleConstant.FLOW_GRADE_QPS);
-		flowRule.setLimitApp("default");
-		FlowRuleManager.loadRules(Collections.singletonList(flowRule));
+
 }

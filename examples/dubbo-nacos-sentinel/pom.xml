@@ -10,13 +10,14 @@
     <description>Dubbo springboot for Spring Boot</description>
     <packaging>pom</packaging>
 
+    <!--
     <parent>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-build</artifactId>
         <version>2.0.4.RELEASE</version>
         <relativePath/>
     </parent>
-
+     -->
     <modules>
         <module>dubbo-api</module>
         <module>dubbo-consumer</module>
@@ -42,6 +43,5 @@
             </plugin>
         </plugins>
     </build>
-
 
 </project>
