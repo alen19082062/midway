@@ -10,14 +10,13 @@
     <description>Dubbo springboot for Spring Boot</description>
     <packaging>pom</packaging>
 
-    <!--
     <parent>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-build</artifactId>
         <version>2.0.4.RELEASE</version>
         <relativePath/>
     </parent>
-     -->
+
     <modules>
         <module>dubbo-api</module>
         <module>dubbo-consumer</module>
@@ -29,10 +28,30 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
         <dubbo.version>2.6.5</dubbo.version>
+        <sentinel.version>1.4.1</sentinel.version>
+        <api.version>1.0.0</api.version>
     </properties>
 
     <dependencies>
-
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>dubbo</artifactId>
+            <version>2.6.5</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework</groupId>
+                    <artifactId>spring-context</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>javax.servlet</groupId>
+                    <artifactId>servlet-api</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>log4j</groupId>
+                    <artifactId>log4j</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
      </dependencies>
 
     <build>

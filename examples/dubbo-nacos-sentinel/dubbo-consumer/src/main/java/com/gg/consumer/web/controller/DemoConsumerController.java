@@ -1,5 +1,6 @@
 package com.gg.consumer.web.controller;
 
+import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.gg.api.service.hello.HelloService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,6 +28,7 @@ public class DemoConsumerController {
     @Autowired
     private ConfigurableApplicationContext applicationContext;
 
+    @SentinelResource("hello")
     @RequestMapping("/hello/{name}")
     public String sayHello(@PathVariable("name") String name) {
         System.out.println("Running class full name : " + this.getClass().getCanonicalName());

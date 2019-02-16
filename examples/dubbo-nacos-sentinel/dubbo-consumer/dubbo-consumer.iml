@@ -28,6 +28,7 @@
     <orderEntry type="module" module-name="dubbo-api" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:2.1.1.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:2.0.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-context:5.0.10.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.0.6.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-logging:2.0.6.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: ch.qos.logback:logback-classic:1.2.3" level="project" />
@@ -63,21 +64,19 @@
     <orderEntry type="library" name="Maven: com.alibaba.boot:dubbo-spring-boot-starter:0.2.1.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba.boot:dubbo-spring-boot-autoconfigure:0.2.1.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba.spring:spring-context-support:1.0.2" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.cloud:sentinel-dubbo-api:unknown" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba.csp:sentinel-core:1.4.1" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba.csp:sentinel-dubbo-adapter:1.4.1" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba.csp:sentinel-transport-simple-http:1.4.1" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba.csp:sentinel-transport-common:1.4.1" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba.csp:sentinel-datasource-extension:1.4.1" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.2.54" level="project" />
-    <orderEntry type="library" name="Maven: com.alibaba:dubbo:2.6.5" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-context:5.0.10.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.javassist:javassist:3.20.0-GA" level="project" />
-    <orderEntry type="library" name="Maven: org.jboss.netty:netty:3.2.5.Final" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba.csp:sentinel-annotation-aspectj:1.4.1" level="project" />
+    <orderEntry type="library" name="Maven: org.aspectj:aspectjrt:1.8.13" level="project" />
+    <orderEntry type="library" name="Maven: org.aspectj:aspectjweaver:1.8.13" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.25" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba:dubbo-registry-nacos:0.0.2" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba.nacos:nacos-client:0.8.0" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba.nacos:nacos-common:0.8.0" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.25" level="project" />
     <orderEntry type="library" name="Maven: commons-io:commons-io:2.2" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.7" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba.nacos:nacos-api:0.8.0" level="project" />
@@ -92,5 +91,8 @@
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-actuator:2.1.1.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-actuator-autoconfigure:2.0.6.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-actuator:2.0.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba:dubbo:2.6.5" level="project" />
+    <orderEntry type="library" name="Maven: org.javassist:javassist:3.20.0-GA" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.netty:netty:3.2.5.Final" level="project" />
   </component>
 </module>
