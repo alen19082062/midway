@@ -1,0 +1,7 @@
+D:\git_code\rocketmq-spring\rocketmq-spring-boot-samples\rocketmq-consume-demo\src\main\java\org\apache\rocketmq\samples\springboot\consumer\Checker.java
+D:\git_code\rocketmq-spring\rocketmq-spring-boot-samples\rocketmq-consume-demo\src\main\java\org\apache\rocketmq\samples\springboot\consumer\OrderPaidEventConsumer.java
+D:\git_code\rocketmq-spring\rocketmq-spring-boot-samples\rocketmq-consume-demo\src\main\java\org\apache\rocketmq\samples\springboot\consumer\StringConsumer.java
+D:\git_code\rocketmq-spring\rocketmq-spring-boot-samples\rocketmq-consume-demo\src\main\java\org\apache\rocketmq\samples\springboot\domain\OrderPaidEvent.java
+D:\git_code\rocketmq-spring\rocketmq-spring-boot-samples\rocketmq-consume-demo\src\main\java\org\apache\rocketmq\samples\springboot\ConsumerApplication.java
+D:\git_code\rocketmq-spring\rocketmq-spring-boot-samples\rocketmq-consume-demo\src\main\java\org\apache\rocketmq\samples\springboot\consumer\MessageExtConsumer.java
+D:\git_code\rocketmq-spring\rocketmq-spring-boot-samples\rocketmq-consume-demo\src\main\java\org\apache\rocketmq\samples\springboot\consumer\StringTransactionalConsumer.java

@@ -28,8 +28,8 @@ public class DemoConsumerController {
     @Autowired
     private ConfigurableApplicationContext applicationContext;
 
-    @SentinelResource("hello")
     @RequestMapping("/hello/{name}")
+    @SentinelResource("hello")
     public String sayHello(@PathVariable("name") String name) {
         System.out.println("Running class full name : " + this.getClass().getCanonicalName());
         System.out.println("sayHello() name : " + name );

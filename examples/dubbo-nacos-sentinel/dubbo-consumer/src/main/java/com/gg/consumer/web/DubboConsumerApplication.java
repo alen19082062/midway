@@ -23,10 +23,10 @@ public class DubboConsumerApplication {
     private static void initFlowRules(){
         System.out.println("====================== initFlowRules() " );
 
-        // 定义了资源 HelloWorld 每秒最多只能通过 2 个请求。
+        // 定义了资源 HelloWorld 每秒最多只能通过 1 个请求。
         // 无法正常工作
-
         List<FlowRule> rules = new ArrayList<>();
+
         FlowRule rule = new FlowRule();
         rule.setResource("hello");
         rule.setGrade(RuleConstant.FLOW_GRADE_QPS);

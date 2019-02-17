@@ -1,0 +1,9 @@
+#Thu Jan 31 17:25:08 CST 2019
+D\:\\git_code\\rocketmq-spring\\rocketmq-spring-boot-samples\\rocketmq-consume-demo\\src\\main\\java\\org\\apache\\rocketmq\\samples\\springboot\\ConsumerApplication.java=1548919042670
+D\:\\git_code\\rocketmq-spring\\rocketmq-spring-boot-samples\\rocketmq-consume-demo\\src\\main\\java\\org\\apache\\rocketmq\\samples\\springboot\\consumer\\OrderPaidEventConsumer.java=1548919042673
+D\:\\git_code\\rocketmq-spring\\rocketmq-spring-boot-samples\\rocketmq-consume-demo\\src\\main\\java\\org\\apache\\rocketmq\\samples\\springboot\\consumer\\StringTransactionalConsumer.java=1548919042674
+D\:\\git_code\\rocketmq-spring\\rocketmq-spring-boot-samples\\rocketmq-consume-demo\\src\\main\\java\\org\\apache\\rocketmq\\samples\\springboot\\consumer\\StringConsumer.java=1548919042673
+D\:\\git_code\\rocketmq-spring\\rocketmq-spring-boot-samples\\rocketmq-consume-demo\\src\\main\\java\\org\\apache\\rocketmq\\samples\\springboot\\domain\\OrderPaidEvent.java=1548919042675
+D\:\\git_code\\rocketmq-spring\\rocketmq-spring-boot-samples\\rocketmq-consume-demo\\src\\main\\java\\org\\apache\\rocketmq\\samples\\springboot\\consumer\\Checker.java=1548919042671
+D\:\\git_code\\rocketmq-spring\\rocketmq-spring-boot-samples\\rocketmq-consume-demo\\src\\main\\java\\org\\apache\\rocketmq\\samples\\springboot\\consumer\\MessageExtConsumer.java=1548919042672
+configuration*?=1408ECBE87113460C17733A67BB4D58CC13F6291

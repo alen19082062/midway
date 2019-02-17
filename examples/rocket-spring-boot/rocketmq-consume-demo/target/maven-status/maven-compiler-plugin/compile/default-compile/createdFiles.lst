@@ -1,0 +1,7 @@
+org\apache\rocketmq\samples\springboot\consumer\OrderPaidEventConsumer.class
+org\apache\rocketmq\samples\springboot\ConsumerApplication.class
+org\apache\rocketmq\samples\springboot\domain\OrderPaidEvent.class
+org\apache\rocketmq\samples\springboot\consumer\MessageExtConsumer.class
+org\apache\rocketmq\samples\springboot\consumer\Checker.class
+org\apache\rocketmq\samples\springboot\consumer\StringConsumer.class
+org\apache\rocketmq\samples\springboot\consumer\StringTransactionalConsumer.class

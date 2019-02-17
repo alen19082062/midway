@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="D:\git_code\rocketmq-spring\rocketmq-spring-boot-samples\rocketmq-consume-demo\src\main\java\org\apache\rocketmq\samples\springboot\consumer\Checker.java">
+</file>
+<file name="D:\git_code\rocketmq-spring\rocketmq-spring-boot-samples\rocketmq-consume-demo\src\main\java\org\apache\rocketmq\samples\springboot\consumer\MessageExtConsumer.java">
+</file>
+<file name="D:\git_code\rocketmq-spring\rocketmq-spring-boot-samples\rocketmq-consume-demo\src\main\java\org\apache\rocketmq\samples\springboot\consumer\OrderPaidEventConsumer.java">
+</file>
+<file name="D:\git_code\rocketmq-spring\rocketmq-spring-boot-samples\rocketmq-consume-demo\src\main\java\org\apache\rocketmq\samples\springboot\consumer\StringConsumer.java">
+</file>
+<file name="D:\git_code\rocketmq-spring\rocketmq-spring-boot-samples\rocketmq-consume-demo\src\main\java\org\apache\rocketmq\samples\springboot\consumer\StringTransactionalConsumer.java">
+</file>
+<file name="D:\git_code\rocketmq-spring\rocketmq-spring-boot-samples\rocketmq-consume-demo\src\main\java\org\apache\rocketmq\samples\springboot\ConsumerApplication.java">
+</file>
+<file name="D:\git_code\rocketmq-spring\rocketmq-spring-boot-samples\rocketmq-consume-demo\src\main\java\org\apache\rocketmq\samples\springboot\domain\OrderPaidEvent.java">
+</file>
+<file name="D:\git_code\rocketmq-spring\rocketmq-spring-boot-samples\rocketmq-consume-demo\src\main\resources\application.properties">
+</file>
+</checkstyle>
