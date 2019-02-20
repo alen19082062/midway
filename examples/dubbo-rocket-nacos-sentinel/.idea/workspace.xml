@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f4d67da-33d7-4067-908f-0b581ef3a2a4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-consumer/src/main/java/com/gg/consumer/web/DubboConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-consumer/src/main/java/com/gg/consumer/web/DubboConsumerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-consumer/src/main/java/com/gg/consumer/web/controller/DemoConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-consumer/src/main/java/com/gg/consumer/web/controller/DemoConsumerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-consumer/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-consumer/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-consumer/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-consumer/target/classes/com/gg/consumer/web/controller/DemoConsumerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-consumer/target/classes/com/gg/consumer/web/controller/DemoConsumerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-api/target/classes/com/gg/api/service/hello/HelloService.class" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-api/target/classes/com/gg/api/service/hello/HelloService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-consumer/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/target/classes/com/gg/consumer/web/DubboConsumerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-consumer/target/classes/com/gg/consumer/web/DubboConsumerApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/target/classes/com/gg/consumer/web/controller/DemoConsumerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-consumer/target/classes/com/gg/consumer/web/controller/DemoConsumerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rocket-spring-boot/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rocket-spring-boot/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/dubbo-provider/target/" />
@@ -40,8 +41,9 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dubbo-provider/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
+            <state relative-caret-position="575">
               <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
               <folding>
                 <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" />
@@ -52,8 +54,9 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
+            <state relative-caret-position="300">
               <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
@@ -62,7 +65,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/java/com/gg/consumer/web/controller/DemoConsumerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
+            <state relative-caret-position="525">
               <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -71,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/java/com/gg/consumer/web/DubboConsumerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+            <state relative-caret-position="284">
+              <caret line="31" column="49" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,12 +86,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="391">
-                <caret line="17" column="42" lean-forward="true" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+              <first_editor relative-caret-position="-1039">
+                <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
               </first_editor>
               <second_editor />
             </state>
@@ -98,7 +101,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
+            <state relative-caret-position="550">
               <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
             </state>
           </provider>
@@ -314,8 +317,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -326,13 +329,13 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../rocket-spring-boot" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -440,11 +443,12 @@
       <workItem from="1550248770617" duration="2372000" />
       <workItem from="1550287421547" duration="6188000" />
       <workItem from="1550300643951" duration="765000" />
+      <workItem from="1550564266839" duration="2298000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136394000" />
+    <option name="totallyTimeSpent" value="138692000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -459,7 +463,7 @@
     <frame x="-9" y="-9" width="1384" height="716" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4920635" visible="true" weight="0.2519084" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4920635" visible="true" weight="0.2351145" />
       <window_info id="Structure" order="1" sideWeight="0.50793654" side_tool="true" weight="0.270229" />
       <window_info id="Web" order="2" sideWeight="0.50793654" side_tool="true" weight="0.270229" />
       <window_info id="Designer" order="3" />
@@ -474,7 +478,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32971016" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32971016" />
-      <window_info anchor="bottom" id="Run Dashboard" order="9" weight="0.6576087" />
+      <window_info anchor="bottom" id="Run Dashboard" order="9" weight="0.6569343" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32971016" />
       <window_info anchor="bottom" id="Spring" order="12" weight="0.32971016" />
@@ -1123,20 +1127,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/dev/jdk8/src.zip!/java/time/format/DateTimeFormatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2933">
-          <caret line="534" column="56" selection-start-line="534" selection-start-column="56" selection-end-line="534" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/dev/jdk8/javafx-src.zip!/com/sun/webkit/network/DateParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2804">
-          <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/dev/jdk8/src.zip!/java/time/format/DateTimeFormatter.java" />
+    <entry file="jar://D:/dev/jdk8/javafx-src.zip!/com/sun/webkit/network/DateParser.java" />
     <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/test/java/com/gg/consumer/web/DubboConsumerApplicationTests.java" />
     <entry file="file://$PROJECT_DIR$/dubbo-consumer/dubbo-consumer.iml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1194,8 +1186,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dubbo-provider/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
+        <state relative-caret-position="575">
           <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
           <folding>
             <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" />
@@ -1204,15 +1197,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
+        <state relative-caret-position="300">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/java/com/gg/consumer/web/controller/DemoConsumerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
+        <state relative-caret-position="525">
           <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1222,28 +1216,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
+        <state relative-caret-position="550">
           <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/java/com/gg/consumer/web/DubboConsumerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="391">
-            <caret line="17" column="42" lean-forward="true" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+          <first_editor relative-caret-position="-1039">
+            <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/java/com/gg/consumer/web/DubboConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="31" column="49" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
