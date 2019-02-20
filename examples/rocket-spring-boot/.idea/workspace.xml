@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5895e509-dae6-45e4-8b21-def395b6bbbb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../dubbo-rocket-nacos-sentinel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-rocket-nacos-sentinel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-rocket-nacos-sentinel/dubbo-api/target/classes/com/gg/api/service/hello/HelloService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-rocket-nacos-sentinel/dubbo-api/target/classes/com/gg/api/service/hello/HelloService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-rocket-nacos-sentinel/dubbo-consumer/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-rocket-nacos-sentinel/dubbo-consumer/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-rocket-nacos-sentinel/dubbo-consumer/target/classes/com/gg/consumer/web/DubboConsumerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-rocket-nacos-sentinel/dubbo-consumer/target/classes/com/gg/consumer/web/DubboConsumerApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-rocket-nacos-sentinel/dubbo-consumer/target/classes/com/gg/consumer/web/controller/DemoConsumerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-rocket-nacos-sentinel/dubbo-consumer/target/classes/com/gg/consumer/web/controller/DemoConsumerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rocketmq-consume-demo/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-consume-demo/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rocketmq-consume-demo/target/classes/org/apache/rocketmq/samples/springboot/ConsumerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-consume-demo/target/classes/org/apache/rocketmq/samples/springboot/ConsumerApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rocketmq-consume-demo/target/classes/org/apache/rocketmq/samples/springboot/consumer/Checker.class" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-consume-demo/target/classes/org/apache/rocketmq/samples/springboot/consumer/Checker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rocketmq-consume-demo/target/classes/org/apache/rocketmq/samples/springboot/consumer/MessageExtConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-consume-demo/target/classes/org/apache/rocketmq/samples/springboot/consumer/MessageExtConsumer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rocketmq-consume-demo/target/classes/org/apache/rocketmq/samples/springboot/consumer/OrderPaidEventConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-consume-demo/target/classes/org/apache/rocketmq/samples/springboot/consumer/OrderPaidEventConsumer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rocketmq-consume-demo/target/classes/org/apache/rocketmq/samples/springboot/consumer/StringConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-consume-demo/target/classes/org/apache/rocketmq/samples/springboot/consumer/StringConsumer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rocketmq-consume-demo/target/classes/org/apache/rocketmq/samples/springboot/consumer/StringTransactionalConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-consume-demo/target/classes/org/apache/rocketmq/samples/springboot/consumer/StringTransactionalConsumer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rocketmq-consume-demo/target/classes/org/apache/rocketmq/samples/springboot/domain/OrderPaidEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-consume-demo/target/classes/org/apache/rocketmq/samples/springboot/domain/OrderPaidEvent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rocketmq-produce-demo/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-produce-demo/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rocketmq-produce-demo/target/classes/org/apache/rocketmq/samples/springboot/ProducerApplication$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-produce-demo/target/classes/org/apache/rocketmq/samples/springboot/ProducerApplication$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rocketmq-produce-demo/target/classes/org/apache/rocketmq/samples/springboot/ProducerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-produce-demo/target/classes/org/apache/rocketmq/samples/springboot/ProducerApplication.class" afterDir="false" />
-    </list>
+    <list default="true" id="5895e509-dae6-45e4-8b21-def395b6bbbb" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/rocketmq-consume-demo/target/" />
     <ignored path="$PROJECT_DIR$/rocketmq-produce-demo/target/" />
@@ -88,7 +69,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="1346" />
@@ -211,17 +192,17 @@
       <workItem from="1548943066920" duration="19000" />
       <workItem from="1549117678604" duration="15720000" />
       <workItem from="1550300783315" duration="8069000" />
-      <workItem from="1550566207537" duration="3644000" />
+      <workItem from="1550566207537" duration="4036000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32843000" />
+    <option name="totallyTimeSpent" value="33235000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1384" height="716" extended-state="7" />
+    <frame x="-9" y="-9" width="1384" height="716" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25038168" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23587786" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
