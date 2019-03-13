@@ -20,6 +20,7 @@ import java.util.Map;
 public class DemoController {
 
     private static int byeCount = 0 ;
+    private static int confCount = 0 ;
 
     // 注入配置文件上下文
     @Autowired
@@ -39,8 +40,11 @@ public class DemoController {
     public Map<String,Object> conf() {
         System.out.println("Running class full name : " + this.getClass().getCanonicalName());
         System.out.println("conf() testProperties = "  + testProperties );
+        confCount++ ;
         Map<String,Object> map =  new HashMap();
         map.put("nacos.web.propertie",testProperties);
+        map.put("click_count",confCount);
+
         // System.out.println("sayBye() properities : " + str );
         return map ;
     }
