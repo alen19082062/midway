@@ -2,6 +2,9 @@ package com.gg.demo.web;
 
 import com.alibaba.nacos.api.config.annotation.NacosValue;
 import com.alibaba.nacos.spring.context.annotation.config.NacosPropertySource;
+import com.gg.demo.dao.User;
+import com.gg.demo.dao.UserMapper;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -12,6 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 @RestController
@@ -69,6 +73,17 @@ public class DemoController {
 
     }
 
+    @Autowired
+    UserMapper userMapper;
 
+    @GetMapping("get/{name}")
+    public List<User> getUser(@PathVariable("name") String name) {
+        return userMapper.findByName(name) ;
+    }
+
+    @GetMapping("all")
+    public List<User> getUser() {
+        return userMapper.findAll();
+    }
 
 }

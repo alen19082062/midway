@@ -1,10 +1,12 @@
 package com.gg.demo;
 
+import com.alibaba.nacos.spring.context.annotation.config.NacosPropertySource;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
 @SpringBootApplication
+@NacosPropertySource(dataId = "web-mysql", autoRefreshed = true)
 public class DemoWebApplication {
 
     public static void main(String[] args) {
