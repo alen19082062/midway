@@ -3,31 +3,9 @@
 如标题 
 
 ## 在本地运行这个测试例子
-1. 如上面注意项所述，需要开发者在本地build并安装rocketmq-spring-boot-starter
+1. 不使用 xml 配置， https://zhuanlan.zhihu.com/p/25010714?refer=dreawer 
 
-2. 根据RocketMQ官网的quick-start来启动NameServer和Broker，并验证是否启动正确。注意: 测试期间不要停止Broker或者NameServer
-http://rocketmq.apache.org/docs/quick-start/
-
-windows 平台下 
-
-名字服务器，默认端口 9876 
-mqnamesrv.cmd
-
-broker 服务 
-mqbroker -n localhost:9876 
-
-控制台 
-
-
-3. 创建测试例子所需要的Topic
-```
-cd YOUR_ROCKETMQ_HOME
-
-bash bin/mqadmin updateTopic -c DefaultCluster -t string-topic
-bash bin/mqadmin updateTopic -c DefaultCluster -t order-paid-topic
-bash bin/mqadmin updateTopic -c DefaultCluster -t message-ext-topic
-bash bin/mqadmin updateTopic -c DefaultCluster -t spring-transaction-topic
-```
+2. JDBC 配置信息放在 nacos 中
 
 4. 编译并运行测试例子
 

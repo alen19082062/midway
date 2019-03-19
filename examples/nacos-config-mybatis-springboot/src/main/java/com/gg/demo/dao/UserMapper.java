@@ -5,11 +5,22 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
+/**
+ * 对 t_user 表的操作，以 sql 语句为主
+ */
 @Mapper
 @Repository
 public interface UserMapper {
 
-    @Select("select * from t_user where username = #{username}")
+    @Select("SELECT * FROM t_user")
+    @Results({
+            @Result(property = "userId",  column = "id" ),
+            @Result(property = "userName", column = "user_name"),
+            @Result(property = "phone", column = "mobile")
+    })
+    List<User> getAll();
+
+    @Select("select * from t_user where user_name = #{username}")
     List<User> findByName(@Param("username") String name);
 
     @Select("select * from t_user ")

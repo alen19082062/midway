@@ -83,7 +83,7 @@ public class DemoController {
 
     @GetMapping("all")
     public List<User> getUser() {
-        return userMapper.findAll();
+        return userMapper.getAll();
     }
 
 }
