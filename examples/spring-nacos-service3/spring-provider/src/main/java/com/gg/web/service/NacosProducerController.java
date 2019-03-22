@@ -27,7 +27,10 @@ public class NacosProducerController {
      */
     @RequestMapping("/hello")
     public String sayHello(@RequestParam("name")String name) {
-        return "hello ---> "+name+" port -->"+port;
+        System.out.println("sayHello() name : " + name );
+        String str = "hello ---> "+name+" port -->"+port;
+        System.out.println("sayHello() return : " + str );
+        return str ;
     }
 
     @RequestMapping("/hi/{name}")

@@ -16,7 +16,7 @@ import org.springframework.web.client.RestTemplate;
  */
 @SpringBootApplication
 @EnableDiscoveryClient
-public class DubboConsumerApplication {
+public class SpringConsumerApplication {
 
     @Autowired
     private RestTemplateBuilder builder;
@@ -29,12 +29,13 @@ public class DubboConsumerApplication {
     // 此时无法通过注册到Eureka Server上的服务名来调用服务，
     // 因为RestTemplate是无法从服务名映射到ip:port的，映射的功能是由LoadBalancerClient来实现的。
     public RestTemplate restTemplate() {
+        System.out.println("restTemplate() RestTemplateBuilder.build()... ");
         return builder.build();
     }
 
     public static void main(String[] args) {
-        ApplicationContext ctx = SpringApplication.run(DubboConsumerApplication.class, args);
-        System.out.println("Running class full name : " + DubboConsumerApplication.class.getCanonicalName());
+        ApplicationContext ctx = SpringApplication.run(SpringConsumerApplication.class, args);
+        System.out.println("Running class full name : " + SpringConsumerApplication.class.getCanonicalName());
 
         //所有的bean,参考：http://412887952-qq-com.iteye.com/blog/2314051
         String[] beanNames = ctx.getBeanDefinitionNames();
@@ -44,7 +45,7 @@ public class DubboConsumerApplication {
         int i = 0;
         for (String str : beanNames) {
             String print_str = "" + (++i) + " : beanName:" + str ;
-            System.out.println(print_str);
+            // System.out.println(print_str);
         }
         System.out.println("====================== " );
     }

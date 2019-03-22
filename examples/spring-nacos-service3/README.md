@@ -14,18 +14,38 @@ curl -X GET "http://127.0.0.1:8848/nacos/v1/ns/instances?serviceName=nacos.namin
 
 
 ## **三、如何使用**
-**1.使用Dubbo要知道服务提供者和消费者概念，而且最好调用的服务要有共同的Api，如下图是我写的入门项目。**
 
-![Dubbo项目目录](http://wx2.sinaimg.cn/large/cf495cdcgy1fss1juop0uj20as0bj74e.jpg)
-
+**1.POM 
+    2.1.2  + Greenwich.RELEASE 
+    spring-boot-starter-actuator   健康检查依赖于此包 
+    
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.2.RELEASE</version>
+    </parent>
+    
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>Greenwich.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement> 
+ 
 **2.配置 provider 的 application.properties**
 
 ```
-#指定注册中心的位置
-dubbo.registry.address = nacos://localhost:8848
-#统一设置服务提供方的规则
-dubbo.provider.timeout = 1000
-dubbo.monitor.protocol = registry
+#指定当前服务/应用的名字（同样的服务名字相同，不要和别的服务同名）
+spring.application.name = spring-nacos-service-web-producer
+server.port = 9009
+# Nacos服务的地址
+spring.cloud.nacos.discovery.server-addr=127.0.0.1:8848
+management.endpoints.web.exposure.include=*
 ```
 
 **3.服务提供者和消费者**
@@ -45,10 +65,5 @@ POM.XML 增加，可以通过 http://127.0.0.1:9091/actuator/ 访问 （会增�
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
-## **四、运行项目**
-
-首先启动服务提供者，在启动服务调用者，打开谷歌浏览器，输入[http://localhost:9091/sayHello/HelloWorld](http://localhost:9091/sayHello/HelloWorld)
-
-![Dubbo浏览器显示结果](http://wx4.sinaimg.cn/large/cf495cdcgy1fss496cbz4j20hu0apdfv.jpg)
-
+ 
  

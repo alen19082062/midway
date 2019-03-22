@@ -1,6 +1,5 @@
 package com.gg.consumer.web.controller;
 
-import com.gg.api.service.hello.HelloService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.cloud.client.loadbalancer.LoadBalancerClient;
@@ -11,6 +10,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -24,7 +25,9 @@ public class DemoConsumerController {
     //@Reference(version = "${demo.service.version}")
     //private HelloService demoService;
 
-    private static final String SERVICE_NAME = "spring-cloud-nacos-producer";
+    private static int clickCount = 0 ;
+
+    private static final String SERVICE_NAME = "spring-nacos-service-web-producer";
     private static final String HOST = "192.168.10.116";
 
     // 注入配置文件上下文
@@ -36,8 +39,6 @@ public class DemoConsumerController {
 
     // @Autowired
     private LoadBalancerClient loadBalancerClient;
-
-
     @Autowired
     private RestTemplate restTemplate;
 
@@ -46,6 +47,8 @@ public class DemoConsumerController {
      */
     @RequestMapping("/services")
     public Object services() {
+        System.out.println("Get services list ... ");
+        System.out.println("SERVICE_NAME : " + discoveryClient.getInstances(SERVICE_NAME) );
         return discoveryClient.getInstances(SERVICE_NAME);
     }
 
@@ -53,12 +56,27 @@ public class DemoConsumerController {
      * 获取所有服务
      */
     @RequestMapping("/callSayHello")
-    public String services(@RequestParam("name") String name) {
-        Map<String, Object> paramMap = new HashMap<String, Object>();
-        paramMap.put("name",name);
-        String callServiceResult = restTemplate.getForObject("http://"+SERVICE_NAME+"/hello?name={name}", String.class,paramMap);
+    public Map<String, Object> services(@RequestParam("name") String name) {
+        Map<String, Object> map = new HashMap<String, Object>();
+        map.put("name",name);
+
+        // 记录点击次数
+        clickCount++ ;
+        System.out.println("sayBye() clickCount = "  + clickCount );
+        LocalDateTime ldt=LocalDateTime.now();
+        DateTimeFormatter format=DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss SSS");
+        String timeStr=ldt.format(format);
+        map.put("now_time",timeStr);
+        map.put("time_stamp", "" + System.currentTimeMillis()) ;
+        map.put("click_count", "" + clickCount) ;
+
+        String callServiceResult = restTemplate.getForObject("http://"+SERVICE_NAME+"/hello?name={name}", String.class,map);
         System.out.println(callServiceResult);
-        return callServiceResult;
+
+        map.put("callServiceResult",callServiceResult);
+
+        return map;
+
     }
 
     // =============================== 以下是以前的服务
