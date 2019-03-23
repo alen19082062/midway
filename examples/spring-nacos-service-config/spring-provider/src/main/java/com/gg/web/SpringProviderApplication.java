@@ -1,5 +1,6 @@
 package com.gg.web;
 
+import com.alibaba.nacos.spring.context.annotation.config.NacosPropertySource;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
@@ -15,17 +16,19 @@ import java.util.Scanner;
 
 @SpringBootApplication
 @EnableDiscoveryClient
+// @NacosPropertySource(dataId = "web-mysql", autoRefreshed = true)
 public class SpringProviderApplication {
 
     public static void main(String[] args) {
 
+        /*
         Scanner scanner = new Scanner(System.in);
         String port = scanner.nextLine();
         System.out.println("port : " + port );
         new SpringApplicationBuilder(SpringProviderApplication.class)
                 .properties("server.port=" + port).run(args);
+        */
 
-        /*
         ApplicationContext ctx = SpringApplication.run(SpringProviderApplication.class, args);
 
         //所有的bean,参考：http://412887952-qq-com.iteye.com/blog/2314051
@@ -39,7 +42,7 @@ public class SpringProviderApplication {
             // System.out.println(print_str);
         }
         System.out.println("====================== " );
-         */
+
     }
 
 }

@@ -1,4 +1,10 @@
-﻿## **一、运行工具与环境**
+﻿##  ** 功能描述  **
+使用 Nacos 作为 服务注册中心和配置中心 
+客户端使用 openfeign 
+服务端使用 iBatis 连接数据库   
+\resources\user.sql 创建表文件 
+
+## **一、运行工具与环境**
 
 运行环境：JDK 8，Maven 3.6  
 技术栈：SpringBoot 2.1.2、Nacos 0.9 
@@ -12,6 +18,13 @@ curl -X PUT "http://127.0.0.1:8848/nacos/v1/ns/instance?serviceName=nacos.naming
 服务发现
 curl -X GET "http://127.0.0.1:8848/nacos/v1/ns/instances?serviceName=nacos.naming.serviceName"
 
+JDBC 的配置，存放在 nacos 中 ，名字 web-mysql.properties 
+
+内容：
+spring.datasource.username= root
+spring.datasource.password= 1234
+spring.datasource.url= jdbc:mysql://localhost:3306/spring?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+spring.datasource.driver-class-name= com.mysql.cj.jdbc.Driver
 
 ## **三、如何使用**
 
@@ -73,6 +86,10 @@ management.endpoints.web.exposure.include=*
 
 
 **4.服务提供者：负载均衡的方法**
+
+数据库查询 
+http://localhost:9000/all
+
 1、修改 edit configuration ，选中 all parallel run 
 2、启动一个 SpringProviderApplication ，端口是默认的  9009  
 3、修改 application.properties 文件，端口改为 9010，再次启动

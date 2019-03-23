@@ -36,7 +36,7 @@ public class DemoController {
         return "hello : " + name ;
     }
 
-    @NacosValue(value = "${nacos.web.propertie:12344}", autoRefreshed = true)
+    @NacosValue(value = "${nacos.web.propertie:123444}", autoRefreshed = true)
     private String testProperties;
 
     @GetMapping(value = {"/conf"})
