@@ -1,9 +1,12 @@
-package com.gg.consumer.web.controller;
+package com.gg.consumer.web.web;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.cloud.client.loadbalancer.LoadBalancerClient;
 import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -20,7 +23,7 @@ import java.util.Map;
  * 消费者控制层
  */
 @RestController
-public class DemoConsumerController {
+public class WebController {
 
     //@Reference(version = "${demo.service.version}")
     //private HelloService demoService;
@@ -53,9 +56,9 @@ public class DemoConsumerController {
     }
 
     /**
-     * 获取所有服务
+     * 调用 hello 服务，返回 String 类型
      */
-    @RequestMapping("/callSayHello")
+    @RequestMapping("/hello")
     public Map<String, Object> services(@RequestParam("name") String name) {
         Map<String, Object> map = new HashMap<String, Object>();
         map.put("name",name);
@@ -69,48 +72,54 @@ public class DemoConsumerController {
         map.put("now_time",timeStr);
         map.put("time_stamp", "" + System.currentTimeMillis()) ;
         map.put("click_count", "" + clickCount) ;
-
-        String callServiceResult = restTemplate.getForObject("http://"+SERVICE_NAME+"/hello?name={name}", String.class,map);
+        String callServiceResult = restTemplate.getForObject(
+                "http://"+SERVICE_NAME+"/hello?name={name}", String.class,map);
         System.out.println(callServiceResult);
 
         map.put("callServiceResult",callServiceResult);
 
         return map;
-
     }
 
-    // =============================== 以下是以前的服务
+    /**
+     * 调用 hello 服务，有一个参数 返回 HTTP 全内容
+     */
+    @RequestMapping("/hello2")
+    public String hello() {
+        ResponseEntity<String> responseEntity = restTemplate.getForEntity(
+                "http://"+SERVICE_NAME+"/hello?name=test", String.class);
 
-    @RequestMapping("/bye/{name}")
-    public String sayBye(@PathVariable("name") String name) {
-        System.out.println("Running class full name : " + this.getClass().getCanonicalName());
-        // String value = applicationContext.getEnvironment().getProperty("user.name");
-        // String value = applicationContext.getEnvironment().getgetProperty("user.name");
-        Map<String,Object> map = applicationContext.getEnvironment().getSystemProperties();
-        String str = map.toString();
-        System.out.println("sayBye() name : " + name );
-        System.out.println("sayBye() properities : " + str );
-
-        return "" ;
+        String body = responseEntity.getBody();
+        HttpStatus statusCode = responseEntity.getStatusCode();
+        int statusCodeValue = responseEntity.getStatusCodeValue();
+        HttpHeaders headers = responseEntity.getHeaders();
+        StringBuffer result = new StringBuffer();
+        result.append("responseEntity.getBody()：").append(body).append("<hr>")
+                .append("responseEntity.getStatusCode()：").append(statusCode).append("<hr>")
+                .append("responseEntity.getStatusCodeValue()：").append(statusCodeValue).append("<hr>")
+                .append("responseEntity.getHeaders()：").append(headers).append("<hr>");
+        return result.toString();
     }
 
     @RequestMapping("/hi/{name}")
     public Map<String, String> hi(@PathVariable("name") String name) {
         System.out.println("Running class full name : " + this.getClass().getCanonicalName());
         System.out.println("hi() name : " + name );
-        Map<String,String> map = new HashMap<>() ;
-        return map ;
+        Map<String,Object> paraMap = new HashMap<>() ;
+        paraMap.put("name",name);
+
+        Map<String,String> entity = restTemplate.getForObject(
+                "http://"+SERVICE_NAME+"/hi?name={name}",Map.class );
+        return entity ;
     }
 
     @RequestMapping("/conf")
-    public Map<String, Object>  conf() {
+    public Map<String, String>  conf() {
         System.out.println("Running class full name : " + this.getClass().getCanonicalName());
-        // String value = applicationContext.getEnvironment().getProperty("user.name");
-        // String value = applicationContext.getEnvironment().getgetProperty("user.name");
-        Map<String,Object> map = applicationContext.getEnvironment().getSystemProperties();
-        String str = map.toString();
-        System.out.println("conf() properities : " + str );
-        return map ;
+
+        Map<String,String> entity = restTemplate.getForObject(
+                "http://"+SERVICE_NAME+"/conf",Map.class );
+        return entity ;
     }
 
 }

@@ -11,6 +11,8 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>mybatis-config</module>
+        <module>simple-config</module>
         <module>spring-consumer</module>
         <module>spring-provider</module>
     </modules>

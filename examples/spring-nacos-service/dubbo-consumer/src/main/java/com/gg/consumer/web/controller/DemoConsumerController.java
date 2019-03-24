@@ -1,6 +1,5 @@
 package com.gg.consumer.web.controller;
 
-import com.gg.api.service.hello.HelloService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.cloud.client.loadbalancer.LoadBalancerClient;

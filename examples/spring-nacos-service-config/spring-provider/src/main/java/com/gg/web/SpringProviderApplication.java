@@ -3,7 +3,6 @@ package com.gg.web;
 import com.alibaba.nacos.spring.context.annotation.config.NacosPropertySource;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.context.ApplicationContext;
 
@@ -16,7 +15,7 @@ import java.util.Scanner;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-// @NacosPropertySource(dataId = "web-mysql", autoRefreshed = true)
+@NacosPropertySource(dataId = "web-mysql", autoRefreshed = true)
 public class SpringProviderApplication {
 
     public static void main(String[] args) {

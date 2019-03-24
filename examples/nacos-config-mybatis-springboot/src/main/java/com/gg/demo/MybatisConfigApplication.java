@@ -7,11 +7,11 @@ import org.springframework.context.ApplicationContext;
 
 @SpringBootApplication
 @NacosPropertySource(dataId = "web-mysql", autoRefreshed = true)
-public class DemoWebApplication {
+public class MybatisConfigApplication {
 
     public static void main(String[] args) {
         System.out.println("DemoWebApplication begin to start ");
-        ApplicationContext ctx = SpringApplication.run(DemoWebApplication.class, args);
+        ApplicationContext ctx = SpringApplication.run(MybatisConfigApplication.class, args);
         System.out.println("DemoWebApplication start already ");
 
         //所有的bean,参考：http://412887952-qq-com.iteye.com/blog/2314051

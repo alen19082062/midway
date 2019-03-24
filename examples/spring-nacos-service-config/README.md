@@ -1,14 +1,31 @@
 ﻿##  ** 功能描述  **
 使用 Nacos 作为 服务注册中心和配置中心 
-客户端使用 openfeign 
+客户端使用 openfeign ，有负载均衡功能 
 服务端使用 iBatis 连接数据库   
 \resources\user.sql 创建表文件 
+
+模块功能描述 
+【simple-config】 
+ 从Nacos server取通用的配置参数 
+
+【mybatis-config】
+1、从Nacos server取通用的配置参数，
+2、从Nacos server取mysql配置参数，
+3、使用mybatis+连接池，对mysql数据库查询 
+
+【spring-consumer】 
+ 从Nacos server发现服务，调用 spring-provider 提供的服务 
+ 
+【spring-provider】 
+ 1、从Nacos server取通用的配置参数，
+ 2、从Nacos server取mysql配置参数，
+ 3、使用mybatis+连接池，对mysql数据库查询 
+ 4、对外提供 服务接口 
 
 ## **一、运行工具与环境**
 
 运行环境：JDK 8，Maven 3.6  
-技术栈：SpringBoot 2.1.2、Nacos 0.9 
-工具：IntelliJ IDEA、谷歌浏览器  
+依赖库：SpringBoot 2.1.2  Greenwich.RELEASE (2.1.1会有问题） Nacos 0.9 
 
 ## 二、curl 命令 
 
@@ -20,7 +37,7 @@ curl -X GET "http://127.0.0.1:8848/nacos/v1/ns/instances?serviceName=nacos.namin
 
 JDBC 的配置，存放在 nacos 中 ，名字 web-mysql.properties 
 
-内容：
+JDBC 内容：
 spring.datasource.username= root
 spring.datasource.password= 1234
 spring.datasource.url= jdbc:mysql://localhost:3306/spring?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
@@ -67,6 +84,9 @@ spring.application.name = spring-nacos-service-web-producer
 server.port = 9009
 # Nacos服务的地址
 spring.cloud.nacos.discovery.server-addr=127.0.0.1:8848
+# Nacos config address
+nacos.config.server-addr=127.0.0.1:8848
+
 management.endpoints.web.exposure.include=*
 ```
 
@@ -98,4 +118,10 @@ http://localhost:9000/all
    负载均衡生效了   
  
  
- 
+FAQ 
+1、错误：Failed to configure a DataSource: 'url' attribute is not specified and no 
+   embedded datasource could be configured.
+   检查  @NacosPropertySource(dataId = "web-mysql", autoRefreshed = true) 这个有没有
+   配置好 
+   
+   
