@@ -5,6 +5,9 @@
 \resources\user.sql 创建表文件 
 
 模块功能描述 
+【flow-control】 
+ 基于 sentinel 的流量控制 
+
 【simple-config】 
  从Nacos server取通用的配置参数 
 

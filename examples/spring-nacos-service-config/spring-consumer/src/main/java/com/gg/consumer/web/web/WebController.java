@@ -16,6 +16,7 @@ import org.springframework.web.client.RestTemplate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -36,10 +37,8 @@ public class WebController {
     // 注入配置文件上下文
     @Autowired
     private ConfigurableApplicationContext applicationContext;
-
     @Autowired
     private DiscoveryClient discoveryClient;
-
     // @Autowired
     private LoadBalancerClient loadBalancerClient;
     @Autowired
@@ -56,16 +55,18 @@ public class WebController {
     }
 
     /**
-     * 调用 hello 服务，返回 String 类型
+     * 调用 hello 服务，服务端返回 String 类型
+     * @param name
+     * @return  Map 对象
      */
     @RequestMapping("/hello")
-    public Map<String, Object> services(@RequestParam("name") String name) {
+    public Map<String, Object> hello(@RequestParam("name") String name) {
         Map<String, Object> map = new HashMap<String, Object>();
         map.put("name",name);
 
         // 记录点击次数
         clickCount++ ;
-        System.out.println("sayBye() clickCount = "  + clickCount );
+        System.out.println("hello() clickCount = "  + clickCount );
         LocalDateTime ldt=LocalDateTime.now();
         DateTimeFormatter format=DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss SSS");
         String timeStr=ldt.format(format);
@@ -82,10 +83,11 @@ public class WebController {
     }
 
     /**
-     * 调用 hello 服务，有一个参数 返回 HTTP 全内容
+     * 调用 hello 服务，服务端返回 String 类型
+     * @return  String 对象
      */
     @RequestMapping("/hello2")
-    public String hello() {
+    public String hello2() {
         ResponseEntity<String> responseEntity = restTemplate.getForEntity(
                 "http://"+SERVICE_NAME+"/hello?name=test", String.class);
 
@@ -101,6 +103,11 @@ public class WebController {
         return result.toString();
     }
 
+    /**
+     * 调用 hello 服务，服务端返回 MAP 类型
+     * @param name
+     * @return  Map 对象
+     */
     @RequestMapping("/hi/{name}")
     public Map<String, String> hi(@PathVariable("name") String name) {
         System.out.println("Running class full name : " + this.getClass().getCanonicalName());
@@ -113,13 +120,18 @@ public class WebController {
         return entity ;
     }
 
+    /**
+     * 调用服务，返回 Nacos 参数列表，MAP 类型
+     * @return  Map 对象
+     */
     @RequestMapping("/conf")
-    public Map<String, String>  conf() {
+    public Map<String, Object>  conf() {
         System.out.println("Running class full name : " + this.getClass().getCanonicalName());
 
-        Map<String,String> entity = restTemplate.getForObject(
+        Map<String,Object> entity = restTemplate.getForObject(
                 "http://"+SERVICE_NAME+"/conf",Map.class );
         return entity ;
     }
+
 
 }

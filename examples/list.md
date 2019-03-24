@@ -7,10 +7,10 @@
 + rocket-spring-boot ： rocket mq 消息的生产和消费
 + dubbo-rocket-nacos-sentinel ： 没有移植 【没有成功】
 + nacos-config-springboot ： web 应用，nacos 配置中心  
-+ nacos-config-mybatis-springboot ： web +DB 应用，nacos 配置中心  
-+ spring-nacos-service： spring cloud 服务调用， nacos 注册中心 
-
-
++ nacos-config-mybatis-springboot ： nacos 配置中心 + web +DB 应用，  
++ spring-nacos-service： nacos  服务注册  + 服务调用 
++  spring-nacos-service3： nacos 服务注册  + 服务调用  
++ spring-nacos-service-config ： nacos 服务 + 配置 + mybatis 
 
 
 

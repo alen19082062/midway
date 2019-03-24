@@ -1,13 +1,10 @@
-package com.gg.web.service;
+package com.gg.midway.flow_control.web;
 
-import com.alibaba.nacos.api.annotation.NacosInjected;
-import com.alibaba.nacos.api.config.annotation.NacosValue;
-import com.alibaba.nacos.api.exception.NacosException;
-import com.alibaba.nacos.api.naming.NamingService;
-import com.alibaba.nacos.api.naming.pojo.Instance;
-import com.alibaba.nacos.spring.context.annotation.config.NacosPropertySource;
-import com.gg.web.dao.User;
-import com.gg.web.dao.UserMapper;
+//import com.alibaba.nacos.api.config.annotation.NacosValue;
+//import com.alibaba.nacos.spring.context.annotation.config.NacosPropertySource;
+import com.alibaba.csp.sentinel.Entry;
+import com.alibaba.csp.sentinel.SphU;
+import com.alibaba.csp.sentinel.slots.block.BlockException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.ConfigurableApplicationContext;
@@ -21,7 +18,7 @@ import java.util.Map;
  * 创建服务
  */
 @RestController
-@NacosPropertySource(dataId = "web-config", autoRefreshed = true)
+// @NacosPropertySource(dataId = "web-config", autoRefreshed = true)
 public class WebController {
 
     @Value("${server.port}")
@@ -34,15 +31,6 @@ public class WebController {
     // 注入配置文件上下文
     @Autowired
     private ConfigurableApplicationContext applicationContext;
-
-//    @NacosInjected
-//    private NamingService namingService;
-//
-//    @RequestMapping("/services")
-//    @ResponseBody
-//    public List<Instance> get(@RequestParam String serviceName) throws NacosException {
-//        return namingService.getAllInstances(serviceName);
-//    }
 
     /**
      * 服务接口
@@ -65,18 +53,26 @@ public class WebController {
     @RequestMapping("/hi/{name}")
     public Map<String,Object> hi(@PathVariable("name") String name) {
         System.out.println("hi() name : " + name );
-
         Map<String,Object> map =  new HashMap();
-        hiCount++ ;
-        map.put("backend_hi_count",hiCount);
-        map.put("name",name);
-        map.put("port",port);
-        System.out.println("hi() port : " + port );
+
+        try (Entry entry = SphU.entry("hi")) {
+            // Your business logic here.
+            System.out.println("conf() enter \"hi\" resources ...");
+            hiCount++ ;
+            map.put("backend_hi_count",hiCount);
+            map.put("name",name);
+            map.put("port",port);
+            System.out.println("hi() port : " + port );
+        } catch (BlockException e) {
+            System.out.println("access resource hi block ....");
+            // Handle rejected request.
+            e.printStackTrace();
+        }
         return map ;
     }
 
-    @NacosValue(value = "${nacos.web.propertie:123}", autoRefreshed = true)
-    private String testProperties;
+    //@NacosValue(value = "${nacos.web.propertie:123}", autoRefreshed = true)
+    //private String testProperties;
 
     /**
      * 测试 nacos 配置参数
@@ -85,27 +81,26 @@ public class WebController {
     @GetMapping(value = {"/conf"})
     public Map<String,Object> conf() {
         System.out.println("Running class full name : " + this.getClass().getCanonicalName());
-        System.out.println("conf() testProperties = "  + testProperties );
-        confCount++ ;
         Map<String,Object> map =  new HashMap();
-        map.put("nacos.web.propertie",testProperties);
-        map.put("port",port);
-        map.put("backend_conf_count",confCount);
 
+        try (Entry entry = SphU.entry("conf")) {
+            // Your business logic here.
+            System.out.println("conf() enter \"conf\" resources ...");
+
+            confCount++ ;
+            //System.out.println("conf() testProperties = "  + testProperties );
+            // map.put("nacos.web.propertie",testProperties);
+            map.put("port",port);
+            map.put("backend_conf_count",confCount);
+
+        } catch (BlockException e) {
+            // Handle rejected request.
+            System.out.println("access resource conf block ....");
+            e.printStackTrace();
+        }
         return map ;
     }
 
 
-    @Autowired
-    UserMapper userMapper;
 
-    @GetMapping("get/{name}")
-    public List<User> getUser(@PathVariable("name") String name) {
-        return userMapper.findByName(name) ;
-    }
-
-    @GetMapping("all")
-    public List<User> getUser() {
-        return userMapper.getAll();
-    }
 }
