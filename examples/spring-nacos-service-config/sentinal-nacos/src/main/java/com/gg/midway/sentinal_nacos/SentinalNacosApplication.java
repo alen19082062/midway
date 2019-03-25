@@ -1,5 +1,6 @@
-package com.gg.midway.flow_control;
+package com.gg.midway.sentinal_nacos;
 
+import com.alibaba.csp.sentinel.datasource.Converter;
 import com.alibaba.csp.sentinel.datasource.ReadableDataSource;
 import com.alibaba.csp.sentinel.datasource.nacos.NacosDataSource;
 import com.alibaba.csp.sentinel.slots.block.RuleConstant;
@@ -15,41 +16,38 @@ import java.util.ArrayList;
 import java.util.List;
 
 @SpringBootApplication
-public class FlowControlApplication {
+public class SentinalNacosApplication {
 
     private static void initFlowRules(){
         System.out.println("------ initFlowRules() ... " );
 
-        List<FlowRule> rules = new ArrayList<>();
-        // 定义了资源 HelloWorld 每秒最多只能通过 1 个请求。
-        // 无法正常工作
+//        List<FlowRule> rules = new ArrayList<>();
+//        // 流控 conf 资源
+//        FlowRule rule3 = new FlowRule();
+//        rule3.setResource("conf");
+//        rule3.setGrade(RuleConstant.FLOW_GRADE_QPS);
+//        rule3.setCount(1);
+//        rule3.setLimitApp("default");
+//        rules.add(rule3);
+//
+//        FlowRuleManager.loadRules(rules);
 
-//        FlowRule rule = new FlowRule();
-//        rule.setResource("hello");
-//        rule.setGrade(RuleConstant.FLOW_GRADE_QPS);
-//        // Set limit QPS to 2.
-//        rule.setCount(1);
-//        rule.setLimitApp("default");
-//        rules.add(rule);
-//        // FlowRuleManager.loadRules(rules);
-
-        // 流控 hi
-        FlowRule rule2 = new FlowRule();
-        rule2.setResource("hi");
-        rule2.setGrade(RuleConstant.FLOW_GRADE_QPS);
-        rule2.setCount(1);
-        rule2.setLimitApp("default");
-        rules.add(rule2);
-
-        // 流控 conf 资源
-        FlowRule rule3 = new FlowRule();
-        rule3.setResource("conf");
-        rule3.setGrade(RuleConstant.FLOW_GRADE_QPS);
-        rule3.setCount(1);
-        rule3.setLimitApp("default");
-        rules.add(rule3);
-
-        FlowRuleManager.loadRules(rules);
+        /*
+        {
+            resource: hello,
+            controlBehavior: 0,
+            count: 1.0,
+            grade: 1,
+            limitApp: default,
+            strategy: 0
+        }
+        */
+        String remoteAddress = "localhost";
+        String groupId = "DEFAULT_GROUP";
+        String dataId = "flow-control";
+        Converter<String, List<FlowRule>> parser = source -> JSON.parseObject(source,new TypeReference<List<FlowRule>>() {});
+        ReadableDataSource<String, List<FlowRule>> nacosDataSource = new NacosDataSource<>(remoteAddress, groupId, dataId, parser);
+        FlowRuleManager.register2Property(nacosDataSource.getProperty());
 
     }
 
@@ -67,20 +65,21 @@ public class FlowControlApplication {
 
 
     private static void loadRules() {
+        System.out.println("loadRules() from Nacos ... " );
         ReadableDataSource<String, List<FlowRule>> flowRuleDataSource = new NacosDataSource<>(remoteAddress, groupId, dataId,
                 source -> JSON.parseObject(source, new TypeReference<List<FlowRule>>() {
                 }));
         FlowRuleManager.register2Property(flowRuleDataSource.getProperty());
     }
 
+
     public static void main(String[] args) {
-        ApplicationContext ctx = SpringApplication.run(FlowControlApplication.class, args);
+        ApplicationContext ctx = SpringApplication.run(SentinalNacosApplication.class, args);
 
-        // FlowControlApplication.initFlowRules();
-
+        // SentinalNacosApplication.initFlowRules();
         loadRules();
 
-        //所有的bean,参考：http://412887952-qq-com.iteye.com/blog/2314051
+        // beans 列表
         String[] beanNames = ctx.getBeanDefinitionNames();
         System.out.println("====================== " );
         System.out.println("bean count = " +  ctx.getBeanDefinitionCount());
