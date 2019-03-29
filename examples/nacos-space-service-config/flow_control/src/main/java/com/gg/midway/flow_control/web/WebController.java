@@ -1,25 +1,24 @@
-package com.gg.midway.sentinal_nacos.web;
+package com.gg.midway.flow_control.web;
 
 //import com.alibaba.nacos.api.config.annotation.NacosValue;
 //import com.alibaba.nacos.spring.context.annotation.config.NacosPropertySource;
 import com.alibaba.csp.sentinel.Entry;
 import com.alibaba.csp.sentinel.SphU;
 import com.alibaba.csp.sentinel.slots.block.BlockException;
-import com.alibaba.nacos.api.config.annotation.NacosValue;
-import com.alibaba.nacos.spring.context.annotation.config.NacosPropertySource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
  * 创建服务
  */
 @RestController
-@NacosPropertySource(dataId = "web-config", autoRefreshed = true)
+// @NacosPropertySource(dataId = "web-config", autoRefreshed = true)
 public class WebController {
 
     @Value("${server.port}")
@@ -40,18 +39,9 @@ public class WebController {
      */
     @RequestMapping("/hello")
     public String hello(@RequestParam("name")String name) {
-        String str = "Blocked by flow control ..." ;
-        try (Entry entry = SphU.entry("hello")) {
-            // Your business logic here.
-            System.out.println("hello() enter \"hello\" resources ...");
-            System.out.println("hello() name : " + name );
-            str = "hello ---> "+name+" port -->"+port;
-            System.out.println("hello() return : " + str );
-        } catch (BlockException e) {
-            System.out.println("Access Resource hello block ....");
-            // Handle rejected request.
-            e.printStackTrace();
-        }
+        System.out.println("sayHello() name : " + name );
+        String str = "hello ---> "+name+" port -->"+port;
+        System.out.println("sayHello() return : " + str );
         return str ;
     }
 
@@ -81,8 +71,8 @@ public class WebController {
         return map ;
     }
 
-    @NacosValue(value = "${nacos.web.propertie:123}", autoRefreshed = true)
-    private String testProperties;
+    //@NacosValue(value = "${nacos.web.propertie:123}", autoRefreshed = true)
+    //private String testProperties;
 
     /**
      * 测试 nacos 配置参数
@@ -91,23 +81,17 @@ public class WebController {
     @GetMapping(value = {"/conf"})
     public Map<String,Object> conf() {
         System.out.println("Running class full name : " + this.getClass().getCanonicalName());
-
         Map<String,Object> map =  new HashMap();
-        map.put("desc","Blocked by flow control ...");
-        map.put("ret",8001);
 
         try (Entry entry = SphU.entry("conf")) {
             // Your business logic here.
             System.out.println("conf() enter \"conf\" resources ...");
 
             confCount++ ;
-            System.out.println("conf() testProperties = "  + testProperties );
-            map.put("nacos.web.propertie",testProperties);
+            //System.out.println("conf() testProperties = "  + testProperties );
+            // map.put("nacos.web.propertie",testProperties);
             map.put("port",port);
             map.put("backend_conf_count",confCount);
-
-            map.put("desc","");
-            map.put("ret",0);
 
         } catch (BlockException e) {
             // Handle rejected request.

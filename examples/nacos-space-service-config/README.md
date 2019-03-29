@@ -4,6 +4,9 @@
 服务端使用 iBatis 连接数据库   
 \resources\user.sql 创建表文件 
 
+2019-3-29 加入 namespace 功能 ， 在 application.properties 文件中增加 
+nacos.namespace=bae90a31-2c5c-4ddb-9f74-4a5363a6cc02
+
 模块功能描述 
 【flow-control】 
  基于 sentinel 的流量控制 
