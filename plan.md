@@ -28,5 +28,43 @@ nacos 不好的地方
 
 
 
+## 2019-3-30  结论
+
++ 服务以 web 方式提供 
+
++ 使用 RocketMQ 中间件 
+
++ 使用 Nacos 作为服务注册、集中配置服务 
+
++ Sentinel 作为流控服务  
+
++ Redis 重要 
+
+   
+
+### 现网运行环境 
+
++ Naocs 在外网服务器 http://119.29.84.41:8848 
++ 使用 Mysql 服务器 作为持久化存储
++ Nacos 区分 Namespace ，存放多个环境的配置信息，现在有 dev-home，dev-office 
++ provider，consumer 加上流控功能，流控规则存放在 nacos 中 
++ 使用一个 rocket MQ，供所有客户端使用   
++ 使用 Redis   
+
+### Nacos 的看法
+
+- 1.0.0 版本接近稳定，近期会发一个稳定版本 
+- 集中配置功能使用方便，支持 Namespace  
+- 服务注册支持 namespace  
+- 服务注册问题，provider server 在内网，nacos 在外网，进行注册 
+- 服务注册问题，管理页面，服务管理项会退出 
+- 使用 namespace ，区分环境很重要  
+
+
+
+ 
+
+
+
 
 
