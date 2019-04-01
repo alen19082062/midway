@@ -1,0 +1,26 @@
+server:
+  port: 8080
+
+profiles:
+  active: dev
+
+management:
+  server:
+    port: 8088 # actuator管理端口调整成8088
+  endpoint:
+    shutdown:
+      enabled: true # 启用接口关闭
+    health:
+      show-details: always
+    web:
+      exposure:
+        include: "*" # 默认只暴露 info 和 health 接口，使用 * 暴露所有接口 (* 在yaml 文件属于关键字)
+        exclude: "env"
+
+info:
+  build:
+    artifact: @project.artifactId@
+    name: @project.name@
+    version: @project.version@
+    description: @project.description@
+

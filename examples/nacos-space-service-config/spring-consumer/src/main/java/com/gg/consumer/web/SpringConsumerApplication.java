@@ -8,7 +8,11 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Repository;
+import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
+
+import javax.xml.ws.Service;
 
 /**
  * DubboConsumerApplication
@@ -39,7 +43,6 @@ public class SpringConsumerApplication {
 
         //所有的bean,参考：http://412887952-qq-com.iteye.com/blog/2314051
         String[] beanNames = ctx.getBeanDefinitionNames();
-        //String[] beanNames = ctx.getBeanNamesForAnnotation(RestController.class);//所有添加该注解的bean
         System.out.println("====================== " );
         System.out.println("bean count = " +  ctx.getBeanDefinitionCount());
         int i = 0;
@@ -48,6 +51,7 @@ public class SpringConsumerApplication {
             // System.out.println(print_str);
         }
         System.out.println("====================== " );
+
     }
 
 
