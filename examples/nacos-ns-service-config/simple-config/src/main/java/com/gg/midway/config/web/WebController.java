@@ -21,10 +21,6 @@ public class WebController {
     private static int byeCount = 0 ;
     private static int confCount = 0 ;
 
-    // 注入配置文件上下文
-    @Autowired
-    private ConfigurableApplicationContext applicationContext;
-
     @RequestMapping("/hello/{name}")
     public String hello(@PathVariable("name") String name) {
         System.out.println("Running class full name : " + this.getClass().getCanonicalName());
@@ -32,16 +28,20 @@ public class WebController {
         return "hello : " + name ;
     }
 
-    @NacosValue(value = "${nacos.web.propertie:12344}", autoRefreshed = true)
+    @NacosValue(value = "${nacos.env:unknown}", autoRefreshed = true)
+    private String envProperties;
+    @NacosValue(value = "${nacos.test:00000}", autoRefreshed = true)
     private String testProperties;
 
     @GetMapping(value = {"/conf"})
     public Map<String,Object> conf() {
         System.out.println("Running class full name : " + this.getClass().getCanonicalName());
-        System.out.println("conf() testProperties = "  + testProperties );
+        System.out.println("conf() nacos.env : "  + envProperties );
+        System.out.println("conf() nacos.test : "  + testProperties );
         confCount++ ;
         Map<String,Object> map =  new HashMap();
-        map.put("nacos.web.propertie",testProperties);
+        map.put("nacos.env",envProperties);
+        map.put("nacos.test",testProperties);
         map.put("click_count",confCount);
 
         // System.out.println("sayBye() properities : " + str );

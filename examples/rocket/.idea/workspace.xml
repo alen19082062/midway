@@ -2,167 +2,489 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5895e509-dae6-45e4-8b21-def395b6bbbb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/rocket-client/src/main/java/com/gg/midway/quickstart/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rocket-client/src/main/java/com/gg/midway/quickstart/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/aop-demo/asm-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/aop-demo/asm-demo/src/main/java/com/gg/midway/asm/demo/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/aop-demo/asm-demo/src/main/java/com/gg/midway/asm/demo/AccountImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/aop-demo/asm-demo/src/main/java/com/gg/midway/asm/demo/AddSecurityCheckMethodAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/aop-demo/asm-demo/src/main/java/com/gg/midway/asm/demo/ClassPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/aop-demo/asm-demo/src/main/java/com/gg/midway/asm/demo/CostTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/aop-demo/asm-demo/src/main/java/com/gg/midway/asm/demo/CostTime2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/aop-demo/asm-demo/src/main/java/com/gg/midway/asm/demo/Generator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/aop-demo/asm-demo/src/main/java/com/gg/midway/asm/demo/HelloWorldByAsm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/aop-demo/asm-demo/src/main/java/com/gg/midway/asm/demo/Hi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/aop-demo/asm-demo/src/main/java/com/gg/midway/asm/demo/MyClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/aop-demo/asm-demo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/aop-demo/cglib-demo/src/main/java/com/gg/midway/aop/cglib/Hi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../collection.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../collection.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dev_env.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../dev_env.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-config-springboot/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-config-springboot/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/libraries/Maven__com_alibaba_boot_dubbo_spring_boot_autoconfigure_0_2_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/libraries/Maven__com_alibaba_boot_dubbo_spring_boot_autoconfigure_0_2_1_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/libraries/Maven__com_alibaba_boot_dubbo_spring_boot_starter_0_2_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/libraries/Maven__com_alibaba_boot_dubbo_spring_boot_starter_0_2_1_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/libraries/Maven__com_alibaba_dubbo_2_6_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/libraries/Maven__com_alibaba_dubbo_2_6_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/libraries/Maven__com_alibaba_dubbo_registry_nacos_0_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/libraries/Maven__com_alibaba_dubbo_registry_nacos_0_0_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/libraries/Maven__com_alibaba_nacos_nacos_api_0_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/libraries/Maven__com_alibaba_nacos_nacos_api_0_8_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/libraries/Maven__com_alibaba_nacos_nacos_client_0_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/libraries/Maven__com_alibaba_nacos_nacos_client_0_8_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/libraries/Maven__com_alibaba_nacos_nacos_common_0_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/libraries/Maven__com_alibaba_nacos_nacos_common_0_8_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/libraries/Maven__com_alibaba_spring_spring_context_support_1_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/libraries/Maven__com_alibaba_spring_spring_context_support_1_0_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/libraries/Maven__com_xiaoze_api_dubbo_api_0_0_1_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/libraries/Maven__com_xiaoze_api_dubbo_api_0_0_1_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/libraries/Maven__io_netty_netty_all_4_1_32_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/libraries/Maven__io_netty_netty_all_4_1_32_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_lgpl_1_9_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_lgpl_1_9_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_lgpl_1_9_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_lgpl_1_9_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/libraries/Maven__org_jboss_netty_netty_3_2_5_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/libraries/Maven__org_jboss_netty_netty_3_2_5_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/dubbo-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/dubbo-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/src/main/java/com/gg/api/service/hello/HelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/src/main/java/com/gg/api/service/hello/HelloService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/apidocs/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/apidocs/allclasses-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/apidocs/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/apidocs/allclasses-noframe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/apidocs/com/gg/api/service/hello/HelloService.html" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/apidocs/com/gg/api/service/hello/HelloService.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/apidocs/com/gg/api/service/hello/class-use/HelloService.html" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/apidocs/com/gg/api/service/hello/class-use/HelloService.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/apidocs/com/gg/api/service/hello/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/apidocs/com/gg/api/service/hello/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/apidocs/com/gg/api/service/hello/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/apidocs/com/gg/api/service/hello/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/apidocs/com/gg/api/service/hello/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/apidocs/com/gg/api/service/hello/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/apidocs/com/gg/api/service/hello/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/apidocs/com/gg/api/service/hello/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/apidocs/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/apidocs/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/apidocs/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/apidocs/deprecated-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/apidocs/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/apidocs/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/apidocs/index-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/apidocs/index-all.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/apidocs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/apidocs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/apidocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/apidocs/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/apidocs/package-list" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/apidocs/package-list" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/apidocs/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/apidocs/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/apidocs/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/apidocs/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/classes/com/gg/api/service/hello/HelloService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/classes/com/gg/api/service/hello/HelloService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/dubbo-api-0.0.1-SNAPSHOT-javadoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/dubbo-api-0.0.1-SNAPSHOT-javadoc.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/dubbo-api-0.0.1-SNAPSHOT-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/dubbo-api-0.0.1-SNAPSHOT-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/dubbo-api-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/dubbo-api-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/dubbo-api-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/dubbo-api-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/javadoc-bundle-options/javadoc-options-javadoc-resources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/javadoc-bundle-options/javadoc-options-javadoc-resources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/javadoc-bundle-options/package-list" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/javadoc-bundle-options/package-list" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-consumer/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-consumer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-consumer/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-consumer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-consumer/dubbo-consumer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-consumer/dubbo-consumer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-consumer/src/main/java/com/gg/consumer/web/DubboConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-consumer/src/main/java/com/gg/consumer/web/DubboConsumerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-consumer/src/main/java/com/gg/consumer/web/controller/DemoConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-consumer/src/main/java/com/gg/consumer/web/controller/DemoConsumerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-consumer/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-consumer/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-consumer/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-consumer/target/classes/com/gg/consumer/web/DubboConsumerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-consumer/target/classes/com/gg/consumer/web/DubboConsumerApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-consumer/target/classes/com/gg/consumer/web/controller/DemoConsumerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-consumer/target/classes/com/gg/consumer/web/controller/DemoConsumerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-nacos-sentinel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-nacos-sentinel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-provider/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-provider/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-provider/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-provider/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-provider/dubbo-provider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-provider/dubbo-provider.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-provider/src/main/java/com/gg/provider/DubboProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-provider/src/main/java/com/gg/provider/DubboProviderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-provider/src/main/java/com/gg/provider/service/impl/HelloServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-provider/src/main/java/com/gg/provider/service/impl/HelloServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-provider/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-provider/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-provider/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-provider/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-provider/target/classes/com/gg/provider/DubboProviderApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-provider/target/classes/com/gg/provider/DubboProviderApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-provider/target/classes/com/gg/provider/service/impl/HelloServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/dubbo-provider/target/classes/com/gg/provider/service/impl/HelloServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-sentinel/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-sentinel/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__com_alibaba_boot_dubbo_spring_boot_autoconfigure_0_2_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__com_alibaba_boot_dubbo_spring_boot_autoconfigure_0_2_1_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__com_alibaba_boot_dubbo_spring_boot_starter_0_2_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__com_alibaba_boot_dubbo_spring_boot_starter_0_2_1_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__com_alibaba_dubbo_2_6_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__com_alibaba_dubbo_2_6_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__com_alibaba_dubbo_registry_nacos_0_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__com_alibaba_dubbo_registry_nacos_0_0_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__com_alibaba_nacos_nacos_api_0_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__com_alibaba_nacos_nacos_api_0_8_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__com_alibaba_nacos_nacos_client_0_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__com_alibaba_nacos_nacos_client_0_8_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__com_alibaba_nacos_nacos_common_0_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__com_alibaba_nacos_nacos_common_0_8_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__com_alibaba_spring_spring_context_support_1_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__com_alibaba_spring_spring_context_support_1_0_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__io_micrometer_micrometer_core_1_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__io_micrometer_micrometer_core_1_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__io_netty_netty_all_4_1_32_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__io_netty_netty_all_4_1_32_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_14.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_14.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_14.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_14.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_14.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_14.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_lgpl_1_9_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_lgpl_1_9_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_lgpl_1_9_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_lgpl_1_9_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_14_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_14_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_jboss_netty_netty_3_2_5_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_jboss_netty_netty_3_2_5_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_1_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_1_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_1_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_1_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_dependencies_2_1_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_dependencies_2_1_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_1_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_1_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_springframework_spring_aop_5_1_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_springframework_spring_aop_5_1_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_springframework_spring_beans_5_1_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_springframework_spring_beans_5_1_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_springframework_spring_context_5_1_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_springframework_spring_context_5_1_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_springframework_spring_core_5_1_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_springframework_spring_core_5_1_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_springframework_spring_expression_5_1_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_springframework_spring_expression_5_1_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_springframework_spring_test_5_1_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_springframework_spring_test_5_1_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_springframework_spring_web_5_1_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_springframework_spring_web_5_1_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/dubbo-api/dubbo-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/dubbo-api/dubbo-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/dubbo-api/target/classes/com/gg/api/service/hello/HelloService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/dubbo-api/target/classes/com/gg/api/service/hello/HelloService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/dubbo-consumer/dubbo-consumer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/dubbo-consumer/dubbo-consumer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/dubbo-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/dubbo-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/dubbo-consumer/src/main/java/com/gg/consumer/web/DubboConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/dubbo-consumer/src/main/java/com/gg/consumer/web/DubboConsumerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/dubbo-consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/dubbo-consumer/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/dubbo-consumer/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/dubbo-consumer/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/dubbo-consumer/target/classes/com/gg/consumer/web/DubboConsumerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/dubbo-consumer/target/classes/com/gg/consumer/web/DubboConsumerApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/dubbo-consumer/target/classes/com/gg/consumer/web/controller/DemoConsumerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/dubbo-consumer/target/classes/com/gg/consumer/web/controller/DemoConsumerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/dubbo-consumer/target/test-classes/com/gg/consumer/web/DubboConsumerApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/dubbo-consumer/target/test-classes/com/gg/consumer/web/DubboConsumerApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/dubbo-provider/dubbo-provider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/dubbo-provider/dubbo-provider.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/dubbo-provider/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/dubbo-provider/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/dubbo-provider/target/classes/com/gg/provider/DubboProviderApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/dubbo-provider/target/classes/com/gg/provider/DubboProviderApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/dubbo-provider/target/classes/com/gg/provider/service/impl/HelloServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/dubbo-provider/target/classes/com/gg/provider/service/impl/HelloServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-nacos-springboot/dubbo-springboot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-nacos-springboot/dubbo-springboot.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dubbo-rocket-nacos-sentinel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-rocket-nacos-sentinel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/flow_control/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/flow_control/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/flow_control/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/flow_control/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/flow_control/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/flow_control/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/flow_control/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/flow_control/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/flow_control/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/flow_control/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/flow_control/src/main/java/com/gg/midway/flow_control/FlowControlApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/flow_control/src/main/java/com/gg/midway/flow_control/FlowControlApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/flow_control/src/main/java/com/gg/midway/flow_control/web/WebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/flow_control/src/main/java/com/gg/midway/flow_control/web/WebController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/flow_control/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/flow_control/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/flow_control/src/test/java/com/gg/midway/flow_control/FlowControlApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/flow_control/src/test/java/com/gg/midway/flow_control/FlowControlApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/mybatis-config/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/mybatis-config/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/mybatis-config/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/mybatis-config/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/mybatis-config/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/mybatis-config/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/mybatis-config/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/mybatis-config/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/mybatis-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/mybatis-config/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/mybatis-config/src/main/java/com/gg/midway/config/MybatisConfigApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/mybatis-config/src/main/java/com/gg/midway/config/MybatisConfigApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/mybatis-config/src/main/java/com/gg/midway/config/dao/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/mybatis-config/src/main/java/com/gg/midway/config/dao/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/mybatis-config/src/main/java/com/gg/midway/config/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/mybatis-config/src/main/java/com/gg/midway/config/dao/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/mybatis-config/src/main/java/com/gg/midway/config/web/WebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/mybatis-config/src/main/java/com/gg/midway/config/web/WebController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/mybatis-config/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/mybatis-config/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/mybatis-config/src/test/java/com/gg/midway/config/MybatisConfigApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/mybatis-config/src/test/java/com/gg/midway/config/MybatisConfigApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/sentinal-nacos/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/sentinal-nacos/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/sentinal-nacos/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/sentinal-nacos/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/sentinal-nacos/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/sentinal-nacos/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/sentinal-nacos/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/sentinal-nacos/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/sentinal-nacos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/sentinal-nacos/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/sentinal-nacos/src/main/java/com/gg/midway/sentinal_nacos/SentinalNacosApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/sentinal-nacos/src/main/java/com/gg/midway/sentinal_nacos/SentinalNacosApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/sentinal-nacos/src/main/java/com/gg/midway/sentinal_nacos/config/ConfigRuleConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/sentinal-nacos/src/main/java/com/gg/midway/sentinal_nacos/config/ConfigRuleConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/sentinal-nacos/src/main/java/com/gg/midway/sentinal_nacos/config/FlowRuleConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/sentinal-nacos/src/main/java/com/gg/midway/sentinal_nacos/config/FlowRuleConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/sentinal-nacos/src/main/java/com/gg/midway/sentinal_nacos/config/NacosConfigSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/sentinal-nacos/src/main/java/com/gg/midway/sentinal_nacos/config/NacosConfigSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/sentinal-nacos/src/main/java/com/gg/midway/sentinal_nacos/web/WebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/sentinal-nacos/src/main/java/com/gg/midway/sentinal_nacos/web/WebController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/sentinal-nacos/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/sentinal-nacos/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/sentinal-nacos/src/test/java/com/gg/midway/sentinal_nacos/SentinalNacosApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/sentinal-nacos/src/test/java/com/gg/midway/sentinal_nacos/SentinalNacosApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/simple-config/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/simple-config/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/simple-config/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/simple-config/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/simple-config/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/simple-config/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/simple-config/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/simple-config/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/simple-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/simple-config/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/simple-config/src/main/java/com/gg/midway/config/SimpleConfigApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/simple-config/src/main/java/com/gg/midway/config/SimpleConfigApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/simple-config/src/main/java/com/gg/midway/config/web/WebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/simple-config/src/main/java/com/gg/midway/config/web/WebController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/simple-config/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/simple-config/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/simple-config/src/test/java/com/gg/midway/config/SimpleConfigApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/simple-config/src/test/java/com/gg/midway/config/SimpleConfigApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/spring-consumer/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/spring-consumer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/spring-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/spring-consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/spring-consumer/src/main/java/com/gg/consumer/web/SpringConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/spring-consumer/src/main/java/com/gg/consumer/web/SpringConsumerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/spring-consumer/src/main/java/com/gg/consumer/web/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/spring-consumer/src/main/java/com/gg/consumer/web/web/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/spring-consumer/src/main/java/com/gg/consumer/web/web/WebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/spring-consumer/src/main/java/com/gg/consumer/web/web/WebController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/spring-consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/spring-consumer/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/spring-consumer/src/test/java/com/gg/consumer/web/DubboConsumerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/spring-consumer/src/test/java/com/gg/consumer/web/DubboConsumerApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/spring-consumer/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/spring-consumer/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/spring-provider/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/spring-provider/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/spring-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/spring-provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/spring-provider/src/main/java/com/gg/web/SpringProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/spring-provider/src/main/java/com/gg/web/SpringProviderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/spring-provider/src/main/java/com/gg/web/dao/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/spring-provider/src/main/java/com/gg/web/dao/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/spring-provider/src/main/java/com/gg/web/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/spring-provider/src/main/java/com/gg/web/dao/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/spring-provider/src/main/java/com/gg/web/service/WebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/spring-provider/src/main/java/com/gg/web/service/WebController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/spring-provider/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/spring-provider/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/spring-provider/src/main/resources/user.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/spring-provider/src/main/resources/user.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/spring-provider/target/classes/META-INF/spring-provider.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/spring-provider/target/classes/META-INF/spring-provider.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/spring-provider/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/spring-provider/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/spring-provider/target/classes/user.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/spring-provider/target/classes/user.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/spring-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/spring-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/spring-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/spring-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos-space-service-config/user.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/user.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/.idea/libraries/Maven__com_alibaba_fastjson_1_2_51.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/.idea/libraries/Maven__io_netty_netty_all_4_0_42_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/.idea/libraries/Maven__io_netty_netty_tcnative_boringssl_static_1_1_33_Fork26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_client_4_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_common_4_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_logging_4_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_remoting_4_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_spring_boot_2_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_spring_boot_starter_2_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_34.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_12_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_0_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/.idea/libraries/Maven__org_springframework_spring_aop_5_1_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/.idea/libraries/Maven__org_springframework_spring_beans_5_1_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/.idea/libraries/Maven__org_springframework_spring_context_5_1_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/.idea/libraries/Maven__org_springframework_spring_core_5_1_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/.idea/libraries/Maven__org_springframework_spring_expression_5_1_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/.idea/libraries/Maven__org_springframework_spring_messaging_5_1_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/README_zh_CN.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/rocketmq-consume-demo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/rocketmq-consume-demo/rocketmq-consume-demo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/rocketmq-consume-demo/src/main/java/org/apache/rocketmq/samples/springboot/ConsumerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/rocketmq-consume-demo/src/main/java/org/apache/rocketmq/samples/springboot/consumer/Checker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/rocketmq-consume-demo/src/main/java/org/apache/rocketmq/samples/springboot/consumer/MessageExtConsumer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/rocketmq-consume-demo/src/main/java/org/apache/rocketmq/samples/springboot/consumer/OrderPaidEventConsumer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/rocketmq-consume-demo/src/main/java/org/apache/rocketmq/samples/springboot/consumer/StringConsumer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/rocketmq-consume-demo/src/main/java/org/apache/rocketmq/samples/springboot/consumer/StringTransactionalConsumer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/rocketmq-consume-demo/src/main/java/org/apache/rocketmq/samples/springboot/domain/OrderPaidEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/rocketmq-consume-demo/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/rocketmq-consume-demo/target/checkstyle-cachefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/rocketmq-consume-demo/target/checkstyle-checker.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/rocketmq-consume-demo/target/checkstyle-result.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/rocketmq-consume-demo/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/rocketmq-consume-demo/target/classes/org/apache/rocketmq/samples/springboot/ConsumerApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/rocketmq-consume-demo/target/classes/org/apache/rocketmq/samples/springboot/consumer/Checker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/rocketmq-consume-demo/target/classes/org/apache/rocketmq/samples/springboot/consumer/MessageExtConsumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/rocketmq-consume-demo/target/classes/org/apache/rocketmq/samples/springboot/consumer/OrderPaidEventConsumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/rocketmq-consume-demo/target/classes/org/apache/rocketmq/samples/springboot/consumer/StringConsumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/rocketmq-consume-demo/target/classes/org/apache/rocketmq/samples/springboot/consumer/StringTransactionalConsumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/rocketmq-consume-demo/target/classes/org/apache/rocketmq/samples/springboot/domain/OrderPaidEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/rocketmq-consume-demo/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/rocketmq-consume-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/rocketmq-consume-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/rocketmq-consume-demo/target/rocketmq-consume-demo-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/rocketmq-consume-demo/target/rocketmq-consume-demo-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/rocketmq-produce-demo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/rocketmq-produce-demo/rocketmq-produce-demo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/rocketmq-produce-demo/src/main/java/org/apache/rocketmq/samples/springboot/ProducerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/rocketmq-produce-demo/src/main/java/org/apache/rocketmq/samples/springboot/domain/OrderPaidEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/rocketmq-produce-demo/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/rocketmq-produce-demo/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/rocketmq-produce-demo/target/classes/org/apache/rocketmq/samples/springboot/ProducerApplication$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/rocketmq-produce-demo/target/classes/org/apache/rocketmq/samples/springboot/ProducerApplication$TransactionListenerImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/rocketmq-produce-demo/target/classes/org/apache/rocketmq/samples/springboot/ProducerApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/rocketmq-produce-demo/target/classes/org/apache/rocketmq/samples/springboot/domain/OrderPaidEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/rocketmq-spring-boot-samples.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/style/copyright/Apache.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/style/copyright/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/style/rmq_checkstyle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocket-spring-boot/style/rmq_codeStyle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-rocket-nacos-sentinel/dubbo-api/target/classes/com/gg/api/service/hello/HelloService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-rocket-nacos-sentinel/dubbo-api/target/classes/com/gg/api/service/hello/HelloService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-rocket-nacos-sentinel/dubbo-consumer/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-rocket-nacos-sentinel/dubbo-consumer/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-rocket-nacos-sentinel/dubbo-consumer/target/classes/com/gg/consumer/web/DubboConsumerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-rocket-nacos-sentinel/dubbo-consumer/target/classes/com/gg/consumer/web/DubboConsumerApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-rocket-nacos-sentinel/dubbo-consumer/target/classes/com/gg/consumer/web/controller/DemoConsumerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-rocket-nacos-sentinel/dubbo-consumer/target/classes/com/gg/consumer/web/controller/DemoConsumerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-sentinel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-sentinel/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list.md" beforeDir="false" afterPath="$PROJECT_DIR$/../list.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-config-mybatis-springboot/README_zh_CN.md" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-config-mybatis-springboot/README_zh_CN.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-config-mybatis-springboot/src/main/java/com/gg/demo/web/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-config-mybatis-springboot/src/main/java/com/gg/demo/web/DemoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-config-mybatis-springboot/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-config-mybatis-springboot/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-config-springboot/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-config-springboot/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-config-springboot/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-config-springboot/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-config-springboot/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-config-springboot/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-config-springboot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-config-springboot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-config-springboot/src/main/java/com/gg/demo_web/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-config-springboot/src/main/java/com/gg/demo_web/DemoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-config-springboot/src/main/java/com/gg/demo_web/DemoWebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-config-springboot/src/main/java/com/gg/demo_web/DemoWebApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-config-springboot/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-config-springboot/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-config-springboot/src/test/java/com/gg/demo_web/DemoWebApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-config-springboot/src/test/java/com/gg/demo_web/DemoWebApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-rocket/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-rocket/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-rocket/README_zh_CN.md" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-rocket/README_zh_CN.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-rocket/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-rocket/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-rocket/rocketmq-consume-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-rocket/rocketmq-consume-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-rocket/rocketmq-consume-demo/src/main/java/org/apache/rocketmq/samples/springboot/ConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-rocket/rocketmq-consume-demo/src/main/java/org/apache/rocketmq/samples/springboot/ConsumerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-rocket/rocketmq-consume-demo/src/main/java/org/apache/rocketmq/samples/springboot/consumer/Checker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-rocket/rocketmq-consume-demo/src/main/java/org/apache/rocketmq/samples/springboot/consumer/Checker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-rocket/rocketmq-consume-demo/src/main/java/org/apache/rocketmq/samples/springboot/consumer/MessageExtConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-rocket/rocketmq-consume-demo/src/main/java/org/apache/rocketmq/samples/springboot/consumer/MessageExtConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-rocket/rocketmq-consume-demo/src/main/java/org/apache/rocketmq/samples/springboot/consumer/OrderPaidEventConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-rocket/rocketmq-consume-demo/src/main/java/org/apache/rocketmq/samples/springboot/consumer/OrderPaidEventConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-rocket/rocketmq-consume-demo/src/main/java/org/apache/rocketmq/samples/springboot/consumer/StringConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-rocket/rocketmq-consume-demo/src/main/java/org/apache/rocketmq/samples/springboot/consumer/StringConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-rocket/rocketmq-consume-demo/src/main/java/org/apache/rocketmq/samples/springboot/consumer/StringTransactionalConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-rocket/rocketmq-consume-demo/src/main/java/org/apache/rocketmq/samples/springboot/consumer/StringTransactionalConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-rocket/rocketmq-consume-demo/src/main/java/org/apache/rocketmq/samples/springboot/domain/OrderPaidEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-rocket/rocketmq-consume-demo/src/main/java/org/apache/rocketmq/samples/springboot/domain/OrderPaidEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-rocket/rocketmq-consume-demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-rocket/rocketmq-consume-demo/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-rocket/rocketmq-consume-demo/target/checkstyle-cachefile" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-rocket/rocketmq-consume-demo/target/checkstyle-cachefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-rocket/rocketmq-consume-demo/target/checkstyle-checker.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-rocket/rocketmq-consume-demo/target/checkstyle-checker.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-rocket/rocketmq-consume-demo/target/checkstyle-result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-rocket/rocketmq-consume-demo/target/checkstyle-result.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-rocket/rocketmq-consume-demo/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-rocket/rocketmq-consume-demo/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-rocket/rocketmq-consume-demo/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-rocket/rocketmq-consume-demo/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-rocket/rocketmq-consume-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-rocket/rocketmq-consume-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-rocket/rocketmq-consume-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-rocket/rocketmq-consume-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-rocket/rocketmq-consume-demo/target/rocketmq-consume-demo-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-rocket/rocketmq-consume-demo/target/rocketmq-consume-demo-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-rocket/rocketmq-produce-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-rocket/rocketmq-produce-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-rocket/rocketmq-produce-demo/src/main/java/org/apache/rocketmq/samples/springboot/ProducerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-rocket/rocketmq-produce-demo/src/main/java/org/apache/rocketmq/samples/springboot/ProducerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-rocket/rocketmq-produce-demo/src/main/java/org/apache/rocketmq/samples/springboot/domain/OrderPaidEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-rocket/rocketmq-produce-demo/src/main/java/org/apache/rocketmq/samples/springboot/domain/OrderPaidEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-rocket/rocketmq-produce-demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-rocket/rocketmq-produce-demo/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-rocket/rocketmq-produce-demo/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-rocket/rocketmq-produce-demo/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-rocket/style/copyright/Apache.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-rocket/style/copyright/Apache.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-rocket/style/copyright/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-rocket/style/copyright/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-rocket/style/rmq_checkstyle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-rocket/style/rmq_checkstyle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-rocket/style/rmq_codeStyle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-rocket/style/rmq_codeStyle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/flow_control/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/flow_control/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/flow_control/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/flow_control/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/flow_control/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/flow_control/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/flow_control/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/flow_control/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/flow_control/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/flow_control/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/flow_control/src/main/java/com/gg/midway/flow_control/FlowControlApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/flow_control/src/main/java/com/gg/midway/flow_control/FlowControlApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/flow_control/src/main/java/com/gg/midway/flow_control/web/WebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/flow_control/src/main/java/com/gg/midway/flow_control/web/WebController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/flow_control/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/flow_control/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/flow_control/src/test/java/com/gg/midway/flow_control/FlowControlApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/flow_control/src/test/java/com/gg/midway/flow_control/FlowControlApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/mybatis-config/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/mybatis-config/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/mybatis-config/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/mybatis-config/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/mybatis-config/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/mybatis-config/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/mybatis-config/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/mybatis-config/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/mybatis-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/mybatis-config/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/mybatis-config/src/main/java/com/gg/midway/config/MybatisConfigApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/mybatis-config/src/main/java/com/gg/midway/config/MybatisConfigApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/mybatis-config/src/main/java/com/gg/midway/config/dao/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/mybatis-config/src/main/java/com/gg/midway/config/dao/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/mybatis-config/src/main/java/com/gg/midway/config/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/mybatis-config/src/main/java/com/gg/midway/config/dao/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/mybatis-config/src/main/java/com/gg/midway/config/web/WebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/mybatis-config/src/main/java/com/gg/midway/config/web/WebController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/mybatis-config/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/mybatis-config/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/mybatis-config/src/test/java/com/gg/midway/config/MybatisConfigApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/mybatis-config/src/test/java/com/gg/midway/config/MybatisConfigApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/sentinal-nacos/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/sentinal-nacos/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/sentinal-nacos/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/sentinal-nacos/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/sentinal-nacos/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/sentinal-nacos/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/sentinal-nacos/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/sentinal-nacos/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/sentinal-nacos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/sentinal-nacos/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/sentinal-nacos/src/main/java/com/gg/midway/sentinal_nacos/SentinalNacosApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/sentinal-nacos/src/main/java/com/gg/midway/sentinal_nacos/SentinalNacosApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/sentinal-nacos/src/main/java/com/gg/midway/sentinal_nacos/config/ConfigRuleConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/sentinal-nacos/src/main/java/com/gg/midway/sentinal_nacos/config/ConfigRuleConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/sentinal-nacos/src/main/java/com/gg/midway/sentinal_nacos/config/FlowRuleConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/sentinal-nacos/src/main/java/com/gg/midway/sentinal_nacos/config/FlowRuleConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/sentinal-nacos/src/main/java/com/gg/midway/sentinal_nacos/config/NacosConfigSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/sentinal-nacos/src/main/java/com/gg/midway/sentinal_nacos/config/NacosConfigSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/sentinal-nacos/src/main/java/com/gg/midway/sentinal_nacos/web/WebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/sentinal-nacos/src/main/java/com/gg/midway/sentinal_nacos/web/WebController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/sentinal-nacos/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/sentinal-nacos/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/sentinal-nacos/src/test/java/com/gg/midway/sentinal_nacos/SentinalNacosApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/sentinal-nacos/src/test/java/com/gg/midway/sentinal_nacos/SentinalNacosApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/simple-config/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/simple-config/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/simple-config/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/simple-config/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/simple-config/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/simple-config/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/simple-config/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/simple-config/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/simple-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/simple-config/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/simple-config/src/main/java/com/gg/midway/config/SimpleConfigApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/simple-config/src/main/java/com/gg/midway/config/SimpleConfigApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/simple-config/src/main/java/com/gg/midway/config/web/WebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/simple-config/src/main/java/com/gg/midway/config/web/WebController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/simple-config/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/simple-config/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/simple-config/src/test/java/com/gg/midway/config/SimpleConfigApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/simple-config/src/test/java/com/gg/midway/config/SimpleConfigApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/spring-consumer/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/spring-consumer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/spring-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/spring-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/spring-consumer/src/main/java/com/gg/consumer/web/SpringConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/spring-consumer/src/main/java/com/gg/consumer/web/SpringConsumerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/spring-consumer/src/main/java/com/gg/consumer/web/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/spring-consumer/src/main/java/com/gg/consumer/web/web/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/spring-consumer/src/main/java/com/gg/consumer/web/web/WebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/spring-consumer/src/main/java/com/gg/consumer/web/web/WebController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/spring-consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/spring-consumer/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/spring-consumer/src/test/java/com/gg/consumer/web/DubboConsumerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/spring-consumer/src/test/java/com/gg/consumer/web/DubboConsumerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/spring-consumer/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/spring-consumer/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/spring-provider/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/spring-provider/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/spring-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/spring-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/spring-provider/src/main/java/com/gg/web/SpringProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/spring-provider/src/main/java/com/gg/web/SpringProviderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/spring-provider/src/main/java/com/gg/web/dao/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/spring-provider/src/main/java/com/gg/web/dao/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/spring-provider/src/main/java/com/gg/web/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/spring-provider/src/main/java/com/gg/web/dao/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/spring-provider/src/main/java/com/gg/web/service/WebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/spring-provider/src/main/java/com/gg/web/service/WebController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/spring-provider/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/spring-provider/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/spring-provider/src/main/resources/user.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/spring-provider/src/main/resources/user.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/spring-provider/target/classes/META-INF/spring-provider.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/spring-provider/target/classes/META-INF/spring-provider.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/spring-provider/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/spring-provider/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/spring-provider/target/classes/user.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/spring-provider/target/classes/user.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/spring-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/spring-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/spring-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/spring-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos-ns-service-config/user.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos-ns-service-config/user.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_51.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_0_42_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_tcnative_boringssl_static_1_1_33_Fork26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_client_4_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_common_4_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_logging_4_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_remoting_4_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_spring_boot_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_spring_boot_starter_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_34.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_12_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rocketmq-consume-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-consume-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rocketmq-consume-demo/rocketmq-consume-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-consume-demo/rocketmq-consume-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rocketmq-consume-demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-consume-demo/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rocketmq-consume-demo/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-consume-demo/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rocketmq-consume-demo/target/classes/org/apache/rocketmq/samples/springboot/ConsumerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-consume-demo/target/classes/org/apache/rocketmq/samples/springboot/ConsumerApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rocketmq-consume-demo/target/classes/org/apache/rocketmq/samples/springboot/consumer/Checker.class" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-consume-demo/target/classes/org/apache/rocketmq/samples/springboot/consumer/Checker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rocketmq-consume-demo/target/classes/org/apache/rocketmq/samples/springboot/consumer/MessageExtConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-consume-demo/target/classes/org/apache/rocketmq/samples/springboot/consumer/MessageExtConsumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rocketmq-consume-demo/target/classes/org/apache/rocketmq/samples/springboot/consumer/OrderPaidEventConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-consume-demo/target/classes/org/apache/rocketmq/samples/springboot/consumer/OrderPaidEventConsumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rocketmq-consume-demo/target/classes/org/apache/rocketmq/samples/springboot/consumer/StringConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-consume-demo/target/classes/org/apache/rocketmq/samples/springboot/consumer/StringConsumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rocketmq-consume-demo/target/classes/org/apache/rocketmq/samples/springboot/consumer/StringTransactionalConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-consume-demo/target/classes/org/apache/rocketmq/samples/springboot/consumer/StringTransactionalConsumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rocketmq-consume-demo/target/classes/org/apache/rocketmq/samples/springboot/domain/OrderPaidEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-consume-demo/target/classes/org/apache/rocketmq/samples/springboot/domain/OrderPaidEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rocketmq-produce-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-produce-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rocketmq-produce-demo/rocketmq-produce-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-produce-demo/rocketmq-produce-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rocketmq-produce-demo/src/main/java/org/apache/rocketmq/samples/springboot/ProducerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-produce-demo/src/main/java/org/apache/rocketmq/samples/springboot/ProducerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rocketmq-produce-demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-produce-demo/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rocketmq-produce-demo/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-produce-demo/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rocketmq-produce-demo/target/classes/org/apache/rocketmq/samples/springboot/ProducerApplication$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rocketmq-produce-demo/target/classes/org/apache/rocketmq/samples/springboot/ProducerApplication$TransactionListenerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-produce-demo/target/classes/org/apache/rocketmq/samples/springboot/ProducerApplication$TransactionListenerImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rocketmq-produce-demo/target/classes/org/apache/rocketmq/samples/springboot/ProducerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-produce-demo/target/classes/org/apache/rocketmq/samples/springboot/ProducerApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rocketmq-produce-demo/target/classes/org/apache/rocketmq/samples/springboot/domain/OrderPaidEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-produce-demo/target/classes/org/apache/rocketmq/samples/springboot/domain/OrderPaidEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rocketmq-spring-boot-samples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-spring-boot-samples.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service-config/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service-config/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service-config/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service-config/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service-config/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service-config/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service-config/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service-config/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service-config/flow_control/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service-config/flow_control/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service-config/flow_control/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service-config/flow_control/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service-config/flow_control/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service-config/flow_control/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service-config/flow_control/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service-config/flow_control/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service-config/flow_control/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service-config/flow_control/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service-config/flow_control/src/main/java/com/gg/midway/flow_control/FlowControlApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service-config/flow_control/src/main/java/com/gg/midway/flow_control/FlowControlApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service-config/flow_control/src/main/java/com/gg/midway/flow_control/web/WebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service-config/flow_control/src/main/java/com/gg/midway/flow_control/web/WebController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service-config/flow_control/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service-config/flow_control/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service-config/flow_control/src/test/java/com/gg/midway/flow_control/FlowControlApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service-config/flow_control/src/test/java/com/gg/midway/flow_control/FlowControlApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service-config/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service-config/sentinal-nacos/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service-config/sentinal-nacos/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service-config/sentinal-nacos/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service-config/sentinal-nacos/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service-config/sentinal-nacos/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service-config/sentinal-nacos/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service-config/sentinal-nacos/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service-config/sentinal-nacos/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service-config/sentinal-nacos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service-config/sentinal-nacos/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service-config/sentinal-nacos/src/main/java/com/gg/midway/sentinal_nacos/SentinalNacosApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service-config/sentinal-nacos/src/main/java/com/gg/midway/sentinal_nacos/SentinalNacosApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service-config/sentinal-nacos/src/main/java/com/gg/midway/sentinal_nacos/config/ConfigRuleConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service-config/sentinal-nacos/src/main/java/com/gg/midway/sentinal_nacos/config/ConfigRuleConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service-config/sentinal-nacos/src/main/java/com/gg/midway/sentinal_nacos/config/FlowRuleConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service-config/sentinal-nacos/src/main/java/com/gg/midway/sentinal_nacos/config/FlowRuleConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service-config/sentinal-nacos/src/main/java/com/gg/midway/sentinal_nacos/config/NacosConfigSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service-config/sentinal-nacos/src/main/java/com/gg/midway/sentinal_nacos/config/NacosConfigSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service-config/sentinal-nacos/src/main/java/com/gg/midway/sentinal_nacos/web/WebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service-config/sentinal-nacos/src/main/java/com/gg/midway/sentinal_nacos/web/WebController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service-config/sentinal-nacos/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service-config/sentinal-nacos/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service-config/sentinal-nacos/src/test/java/com/gg/midway/sentinal_nacos/SentinalNacosApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service-config/sentinal-nacos/src/test/java/com/gg/midway/sentinal_nacos/SentinalNacosApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service-config/spring-consumer/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service-config/spring-consumer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service-config/spring-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service-config/spring-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service-config/spring-consumer/src/main/java/com/gg/consumer/web/SpringConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service-config/spring-consumer/src/main/java/com/gg/consumer/web/SpringConsumerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service-config/spring-consumer/src/main/java/com/gg/consumer/web/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service-config/spring-consumer/src/main/java/com/gg/consumer/web/web/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service-config/spring-consumer/src/main/java/com/gg/consumer/web/web/WebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service-config/spring-consumer/src/main/java/com/gg/consumer/web/web/WebController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service-config/spring-consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service-config/spring-consumer/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service-config/spring-consumer/src/test/java/com/gg/consumer/web/DubboConsumerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service-config/spring-consumer/src/test/java/com/gg/consumer/web/DubboConsumerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service-config/spring-consumer/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service-config/spring-consumer/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service-config/spring-provider/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service-config/spring-provider/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service-config/spring-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service-config/spring-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service-config/spring-provider/src/main/java/com/gg/web/SpringProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service-config/spring-provider/src/main/java/com/gg/web/SpringProviderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service-config/spring-provider/src/main/java/com/gg/web/service/WebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service-config/spring-provider/src/main/java/com/gg/web/service/WebController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service-config/spring-provider/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service-config/spring-provider/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service-config/spring-provider/src/main/resources/user.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service-config/spring-provider/src/main/resources/user.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service-config/spring-provider/target/classes/META-INF/spring-provider.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service-config/spring-provider/target/classes/META-INF/spring-provider.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service-config/spring-provider/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service-config/spring-provider/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service-config/spring-provider/target/classes/user.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service-config/spring-provider/target/classes/user.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service-config/spring-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service-config/spring-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service-config/spring-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service-config/spring-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service-config/user.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service-config/user.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service/spring-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service/spring-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service/spring-provider/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service/spring-provider/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service3/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service3/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service3/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service3/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service3/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service3/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service3/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service3/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service3/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service3/spring-consumer/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service3/spring-consumer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service3/spring-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service3/spring-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service3/spring-consumer/src/main/java/com/gg/consumer/web/SpringConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service3/spring-consumer/src/main/java/com/gg/consumer/web/SpringConsumerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service3/spring-consumer/src/main/java/com/gg/consumer/web/controller/DemoConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service3/spring-consumer/src/main/java/com/gg/consumer/web/controller/DemoConsumerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service3/spring-consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service3/spring-consumer/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service3/spring-consumer/src/test/java/com/gg/consumer/web/DubboConsumerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service3/spring-consumer/src/test/java/com/gg/consumer/web/DubboConsumerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service3/spring-consumer/target/classes/META-INF/spring-consumer.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service3/spring-consumer/target/classes/META-INF/spring-consumer.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service3/spring-consumer/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service3/spring-consumer/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service3/spring-provider/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service3/spring-provider/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service3/spring-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service3/spring-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service3/spring-provider/src/main/java/com/gg/web/SpringProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service3/spring-provider/src/main/java/com/gg/web/SpringProviderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service3/spring-provider/src/main/java/com/gg/web/service/NacosProducerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service3/spring-provider/src/main/java/com/gg/web/service/NacosProducerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service3/spring-provider/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service3/spring-provider/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service3/spring-provider/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service3/spring-provider/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service3/spring-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service3/spring-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-nacos-service3/spring-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-nacos-service3/spring-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plan.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../plan.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot/aop-demo/aspect-demo/src/main/java/com/gg/midway/aop/AspectDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot/aop-demo/aspect-demo/src/main/java/com/gg/midway/aop/AspectDemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot/aop-demo/aspect-demo/src/main/java/com/gg/midway/aop/web/AopController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot/aop-demo/aspect-demo/src/main/java/com/gg/midway/aop/web/AopController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot/aop-demo/aspect-demo/src/main/java/com/gg/midway/aop/web/WebLogAcpect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot/aop-demo/aspect-demo/src/main/java/com/gg/midway/aop/web/WebLogAcpect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot/aop-demo/cglib-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot/aop-demo/cglib-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot/aop-demo/cglib-demo/src/main/java/com/gg/midway/aop/cglib/SampleClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot/aop-demo/cglib-demo/src/main/java/com/gg/midway/aop/cglib/SampleClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot/aop-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot/aop-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../work/box_login/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../work/box_login/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../work/box_login/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../work/box_login/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../work/box_login/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../work/box_login/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../work/box_login/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../work/box_login/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../work/box_login/src/main/java/com/gg/box/login/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../work/box_login/src/main/java/com/gg/box/login/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../work/box_login/src/main/java/com/gg/box/login/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../work/box_login/src/main/java/com/gg/box/login/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../work/box_login/src/main/java/com/gg/box/login/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../work/box_login/src/main/java/com/gg/box/login/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../work/box_login/src/main/java/com/gg/box/login/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../work/box_login/src/main/java/com/gg/box/login/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../work/box_login/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../work/box_login/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../work/box_login/src/test/java/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../work/box_login/src/test/java/DemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../work/demo_web/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../work/demo_web/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../work/demo_web/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../work/demo_web/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../work/demo_web/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../work/demo_web/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../work/demo_web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../work/demo_web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../work/demo_web/src/main/java/com/gg/demo_web/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../work/demo_web/src/main/java/com/gg/demo_web/DemoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../work/demo_web/src/main/java/com/gg/demo_web/DemoWebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../work/demo_web/src/main/java/com/gg/demo_web/DemoWebApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../work/demo_web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../work/demo_web/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../work/demo_web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../work/demo_web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../work/demo_web/src/main/webapp/t2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../work/demo_web/src/main/webapp/t2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../work/demo_web/src/main/webapp/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../work/demo_web/src/main/webapp/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../work/demo_web/src/test/java/com/gg/demo_web/DemoWebApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../work/demo_web/src/test/java/com/gg/demo_web/DemoWebApplicationTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/rocketmq-consume-demo/target/" />
     <ignored path="$PROJECT_DIR$/rocketmq-produce-demo/target/" />
+    <ignored path="$PROJECT_DIR$/rocket-client/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,13 +505,112 @@
     <expand />
     <select />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rocketmq-produce-demo/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+            <state relative-caret-position="90">
+              <caret line="3" column="34" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rocket-client/src/test/java/com/gg/midway/RocketClientApplicationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="12" column="28" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rocketmq-produce-demo/src/main/java/org/apache/rocketmq/samples/springboot/ProducerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="402">
+              <caret line="109" column="5" lean-forward="true" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2676#2677#0" expanded="true" />
+                <element signature="e#2746#2747#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rocket-client/src/main/java/com/gg/midway/quickstart/Consumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1260">
+              <caret line="65" column="25" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rocket-client/src/main/java/com/gg/midway/quickstart/Producer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/dev/maven36/reposity/org/apache/rocketmq/rocketmq-client/4.4.0/rocketmq-client-4.4.0.jar!/org/apache/rocketmq/client/producer/DefaultMQProducer.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3000">
+              <caret line="132" column="42" selection-start-line="132" selection-start-column="42" selection-end-line="132" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/dev/maven36/reposity/org/apache/rocketmq/rocketmq-client/4.4.0/rocketmq-client-4.4.0.jar!/org/apache/rocketmq/client/impl/producer/DefaultMQProducerImpl.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="14100">
+              <caret line="544" column="21" selection-start-line="544" selection-start-column="21" selection-end-line="544" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rocket-client/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rocket-client/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="750">
+              <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rocket-client/src/main/java/com/gg/midway/RocketClientApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <folding>
+                <element signature="e#251#252#0" expanded="true" />
+                <element signature="e#325#326#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -207,17 +628,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/rocketmq-produce-demo/pom.xml" />
-        <option value="$PROJECT_DIR$/rocketmq-consume-demo/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/rocketmq-consume-demo/src/main/java/org/apache/rocketmq/samples/springboot/consumer/MessageExtConsumer.java" />
         <option value="$PROJECT_DIR$/rocketmq-consume-demo/src/main/java/org/apache/rocketmq/samples/springboot/consumer/OrderPaidEventConsumer.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/rocketmq-consume-demo/pom.xml" />
         <option value="$PROJECT_DIR$/rocketmq-consume-demo/src/main/java/org/apache/rocketmq/samples/springboot/consumer/StringTransactionalConsumer.java" />
         <option value="$PROJECT_DIR$/rocketmq-consume-demo/src/main/java/org/apache/rocketmq/samples/springboot/consumer/StringConsumer.java" />
         <option value="$PROJECT_DIR$/rocketmq-consume-demo/src/main/java/org/apache/rocketmq/samples/springboot/consumer/Checker.java" />
         <option value="$PROJECT_DIR$/README_zh_CN.md" />
+        <option value="$PROJECT_DIR$/rocketmq-consume-demo/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/rocketmq-produce-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/rocketmq-consume-demo/pom.xml" />
         <option value="$PROJECT_DIR$/rocketmq-produce-demo/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/rocket-client/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/rocket-client/pom.xml" />
+        <option value="$PROJECT_DIR$/rocket-client/src/main/java/com/gg/midway/quickstart/Consumer.java" />
+        <option value="$PROJECT_DIR$/rocket-client/src/main/java/com/gg/midway/quickstart/Producer.java" />
         <option value="$PROJECT_DIR$/rocketmq-produce-demo/src/main/java/org/apache/rocketmq/samples/springboot/ProducerApplication.java" />
       </list>
     </option>
@@ -250,8 +675,116 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="rocket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocket" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocket" type="462c0819:PsiDirectoryNode" />
+              <item name="rocket-client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocket" type="462c0819:PsiDirectoryNode" />
+              <item name="rocket-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocket" type="462c0819:PsiDirectoryNode" />
+              <item name="rocket-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocket" type="462c0819:PsiDirectoryNode" />
+              <item name="rocket-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocket" type="462c0819:PsiDirectoryNode" />
+              <item name="rocket-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="midway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocket" type="462c0819:PsiDirectoryNode" />
+              <item name="rocketmq-produce-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocket" type="462c0819:PsiDirectoryNode" />
+              <item name="rocketmq-produce-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocket" type="462c0819:PsiDirectoryNode" />
+              <item name="rocketmq-produce-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocket" type="462c0819:PsiDirectoryNode" />
+              <item name="rocketmq-produce-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocket" type="462c0819:PsiDirectoryNode" />
+              <item name="rocketmq-produce-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocket" type="462c0819:PsiDirectoryNode" />
+              <item name="rocketmq-produce-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocket" type="462c0819:PsiDirectoryNode" />
+              <item name="rocketmq-produce-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocket" type="462c0819:PsiDirectoryNode" />
+              <item name="rocketmq-produce-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -262,10 +795,18 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../springboot/aop-demo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\git_code\19082062\midway\examples\rocket\rocket-client\src\main\java\com\gg\midway" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -283,9 +824,35 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.20643643" />
+    <option name="contentProportion" value="0.1561051" />
   </component>
-  <component name="RunManager" selected="Spring Boot.ConsumerApplication">
+  <component name="RunManager" selected="Application.Producer">
+    <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gg.midway.quickstart.Consumer" />
+      <module name="rocket-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gg.midway.quickstart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Producer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gg.midway.quickstart.Producer" />
+      <module name="rocket-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gg.midway.quickstart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="rocketmq-consume-demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.apache.rocketmq.samples.springboot.ConsumerApplication" />
@@ -300,6 +867,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RocketClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rocket-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gg.midway.RocketClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Producer" />
+        <item itemvalue="Application.Consumer" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -318,36 +898,48 @@
       <workItem from="1550300783315" duration="8069000" />
       <workItem from="1550566207537" duration="6524000" />
       <workItem from="1554188728363" duration="203000" />
+      <workItem from="1554189385103" duration="2109000" />
+      <workItem from="1554194330812" duration="798000" />
+      <workItem from="1554704403965" duration="8048000" />
+      <workItem from="1554803594225" duration="6276000" />
+      <workItem from="1555167270205" duration="42000" />
+      <workItem from="1555497512540" duration="6137000" />
+      <workItem from="1555562639297" duration="5881000" />
+      <workItem from="1555852432491" duration="2746000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35926000" />
+    <option name="totallyTimeSpent" value="67963000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1384" height="716" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24045801" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26946566" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32971016" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32971016" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.52813065" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Run Dashboard" order="9" weight="0.6478102" />
+      <window_info anchor="bottom" id="Run Dashboard" order="9" weight="0.6992754" />
       <window_info anchor="bottom" id="Spring" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Terminal" order="12" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.32846716" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32667875" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -356,6 +948,8 @@
       <window_info anchor="right" id="Database" order="5" weight="0.32977098" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Bean Validation" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -375,25 +969,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md" />
-    <entry file="file://$PROJECT_DIR$/rocketmq-produce-demo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LICENSE" />
     <entry file="file://$PROJECT_DIR$/rocketmq-consume-demo/src/main/java/org/apache/rocketmq/samples/springboot/consumer/Checker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="42" column="49" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rocketmq-consume-demo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -414,35 +994,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rocketmq-consume-demo/src/main/java/org/apache/rocketmq/samples/springboot/consumer/StringTransactionalConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="39" column="24" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rocketmq-consume-demo/src/main/java/org/apache/rocketmq/samples/springboot/consumer/StringConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rocketmq-consume-demo/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rocketmq-consume-demo/src/main/java/org/apache/rocketmq/samples/springboot/ConsumerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="26" column="32" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="32" />
-          <folding>
-            <element signature="e#1106#1107#0" expanded="true" />
-            <element signature="e#1176#1177#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -460,28 +1015,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rocketmq-produce-demo/src/main/java/org/apache/rocketmq/samples/springboot/ProducerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="43" column="15" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2343#2372#1" expanded="true" />
-            <element signature="e#2422#2446#1" expanded="true" />
-            <element signature="e#2491#2520#1" expanded="true" />
-            <element signature="e#2568#2598#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README_zh_CN.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -492,12 +1025,207 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rocketmq-produce-demo/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/rocketmq-consume-demo/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+        <state relative-caret-position="100">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocketmq-consume-demo/src/main/java/org/apache/rocketmq/samples/springboot/consumer/StringTransactionalConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-414">
+          <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocketmq-consume-demo/src/main/java/org/apache/rocketmq/samples/springboot/ConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <element signature="e#1106#1107#0" expanded="true" />
+            <element signature="e#1176#1177#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocketmq-produce-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" selection-start-line="7" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocketmq-consume-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocket-client/src/main/java/com/gg/midway/quickstart/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="65" column="25" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/dev/maven36/reposity/org/apache/rocketmq/rocketmq-client/4.4.0/rocketmq-client-4.4.0.jar!/org/apache/rocketmq/client/producer/DefaultMQProducer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3000">
+          <caret line="132" column="42" selection-start-line="132" selection-start-column="42" selection-end-line="132" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/dev/maven36/reposity/org/apache/rocketmq/rocketmq-client/4.4.0/rocketmq-client-4.4.0.jar!/org/apache/rocketmq/client/impl/producer/DefaultMQProducerImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14100">
+          <caret line="544" column="21" selection-start-line="544" selection-start-column="21" selection-end-line="544" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocket-client/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocket-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocket-client/src/main/java/com/gg/midway/RocketClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocket-client/src/main/java/com/gg/midway/quickstart/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocketmq-produce-demo/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocket-client/src/test/java/com/gg/midway/RocketClientApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocketmq-produce-demo/src/main/java/org/apache/rocketmq/samples/springboot/ProducerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="109" column="5" lean-forward="true" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2676#2677#0" expanded="true" />
+            <element signature="e#2746#2747#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

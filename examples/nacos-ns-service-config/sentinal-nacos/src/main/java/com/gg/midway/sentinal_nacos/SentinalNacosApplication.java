@@ -19,37 +19,38 @@ import java.util.List;
 @SpringBootApplication
 public class SentinalNacosApplication {
 
-    // 本地加载
+    // 本地配置规则
     private static void initFlowRules(){
         System.out.println("------ initFlowRules() ... " );
 
-//        List<FlowRule> rules = new ArrayList<>();
-//        // 流控 conf 资源
-//        FlowRule rule3 = new FlowRule();
-//        rule3.setResource("conf");
-//        rule3.setGrade(RuleConstant.FLOW_GRADE_QPS);
-//        rule3.setCount(1);
-//        rule3.setLimitApp("default");
-//        rules.add(rule3);
-//
-//        FlowRuleManager.loadRules(rules);
+        List<FlowRule> rules = new ArrayList<>();
+        // 定义了资源 HelloWorld 每秒最多只能通过 1 个请求。
+        FlowRule rule = new FlowRule();
+        rule.setResource("hello");
+        rule.setGrade(RuleConstant.FLOW_GRADE_QPS);
+        // Set limit QPS to 2.
+        rule.setCount(1);
+        rule.setLimitApp("default");
+        rules.add(rule);
+        // FlowRuleManager.loadRules(rules);
 
-        /*
-        {
-            resource: hello,
-            controlBehavior: 0,
-            count: 1.0,
-            grade: 1,
-            limitApp: default,
-            strategy: 0
-        }
-        */
-        String remoteAddress = "localhost";
-        String groupId = "DEFAULT_GROUP";
-        String dataId = "flow-control";
-        Converter<String, List<FlowRule>> parser = source -> JSON.parseObject(source,new TypeReference<List<FlowRule>>() {});
-        ReadableDataSource<String, List<FlowRule>> nacosDataSource = new NacosDataSource<>(remoteAddress, groupId, dataId, parser);
-        FlowRuleManager.register2Property(nacosDataSource.getProperty());
+        // 流控 hi
+        FlowRule rule2 = new FlowRule();
+        rule2.setResource("hi");
+        rule2.setGrade(RuleConstant.FLOW_GRADE_QPS);
+        rule2.setCount(1);
+        rule2.setLimitApp("default");
+        rules.add(rule2);
+
+        // 流控 conf 资源
+        FlowRule rule3 = new FlowRule();
+        rule3.setResource("conf");
+        rule3.setGrade(RuleConstant.FLOW_GRADE_QPS);
+        rule3.setCount(1);
+        rule3.setLimitApp("default");
+        rules.add(rule3);
+
+        FlowRuleManager.loadRules(rules);
 
     }
 
@@ -63,6 +64,7 @@ public class SentinalNacosApplication {
                 ConfigRuleConstant.remoteAddress, ConfigRuleConstant.groupId, ConfigRuleConstant.dataId,
                 source -> JSON.parseObject(source, new TypeReference<List<FlowRule>>() {
                 }));
+        System.out.println("loadRules() ReadableDataSource : " + flowRuleDataSource );
         FlowRuleManager.register2Property(flowRuleDataSource.getProperty());
     }
 

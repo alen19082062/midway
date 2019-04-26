@@ -12,6 +12,9 @@
     <modules>
         <module>aspect-demo</module>
         <module>cglib-demo</module>
+        <module>asm-demo</module>
+        <module>asm-aop</module>
+
     </modules>
 
     <properties>

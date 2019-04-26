@@ -31,19 +31,6 @@ public class WebController {
     private static int hiCount = 0 ;
     private static int confCount = 0 ;
 
-    // 注入配置文件上下文
-    @Autowired
-    private ConfigurableApplicationContext applicationContext;
-
-//    @NacosInjected
-//    private NamingService namingService;
-//
-//    @RequestMapping("/services")
-//    @ResponseBody
-//    public List<Instance> get(@RequestParam String serviceName) throws NacosException {
-//        return namingService.getAllInstances(serviceName);
-//    }
-
     /**
      * 服务接口
      * @param name
@@ -75,8 +62,10 @@ public class WebController {
         return map ;
     }
 
-    @NacosValue(value = "${nacos.web.propertie:123}", autoRefreshed = true)
+    @NacosValue(value = "${nacos.test:00000}", autoRefreshed = true)
     private String testProperties;
+    @NacosValue(value = "${nacos.env:unknown}", autoRefreshed = true)
+    private String envProperties;
 
     /**
      * 测试 nacos 配置参数
@@ -88,13 +77,12 @@ public class WebController {
         System.out.println("conf() testProperties = "  + testProperties );
         confCount++ ;
         Map<String,Object> map =  new HashMap();
-        map.put("nacos.web.propertie",testProperties);
+        map.put("nacos.test",testProperties);
+        map.put("nacos.env",envProperties);
         map.put("port",port);
         map.put("backend_conf_count",confCount);
-
         return map ;
     }
-
 
     @Autowired
     UserMapper userMapper;

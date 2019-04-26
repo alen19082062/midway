@@ -1,7 +1,9 @@
 package com.gg.midway.sentinal_nacos.config;
 
 public class ConfigRuleConstant {
-    public final static String remoteAddress = "localhost";
+    // public final static String remoteAddress = "localhost";
+    public final static String remoteAddress = "119.29.84.103";
+
     public final static String groupId = "DEFAULT_GROUP";
     public final static String dataId = "flow-rule";
 

@@ -25,6 +25,17 @@
         </dependency>
 
         <dependency>
+            <groupId>com.alibaba.nacos</groupId>
+            <artifactId>nacos-client</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.nacos</groupId>
+            <artifactId>nacos-all</artifactId>
+            <version>1.0.0</version>
+            <type>pom</type>
+        </dependency>
+        <dependency>
             <groupId>com.alibaba.boot</groupId>
             <artifactId>nacos-config-spring-boot-starter</artifactId>
             <version>0.2.1</version>

@@ -12,6 +12,7 @@ public class AspectDemoApplication {
 
     public static void main(String[] args) {
         ApplicationContext ctx = SpringApplication.run(AspectDemoApplication.class, args);
+
         System.out.println("Running class full name : " + AspectDemoApplication.class.getCanonicalName());
 
         //所有的bean,参考：http://412887952-qq-com.iteye.com/blog/2314051

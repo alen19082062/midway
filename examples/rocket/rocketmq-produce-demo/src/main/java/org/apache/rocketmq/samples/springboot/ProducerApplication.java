@@ -68,6 +68,7 @@ public class ProducerApplication implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         System.out.printf("========== rocketMQTemplate.syncSend  ... <%s> .%n " , stringTopic );
+
         // Send string, 同步方式发送
         SendResult sendResult = rocketMQTemplate.syncSend(stringTopic, "Hello, World! The 1st msg");
         System.out.printf("run() syncSend <%s> %n", stringTopic);
@@ -79,32 +80,32 @@ public class ProducerApplication implements CommandLineRunner {
         System.out.printf("run() sendResult = %s %n", sendResult);
         System.out.printf(".... rocketMQTemplate.syncSend <%s> end ...%n ", stringTopic );
 
-        System.out.printf("============  rocketMQTemplate.asyncSend ....<%s>  %n " , orderPaidTopic );
-        // Send user-defined object，异步方式发送
-        rocketMQTemplate.asyncSend(orderPaidTopic, new OrderPaidEvent("T_001", new BigDecimal("88.00")), new SendCallback() {
-            public void onSuccess(SendResult var1) {
-                System.out.printf("onSuccess() async send, SendResult=%s %n", var1);
-            }
-
-            public void onException(Throwable var1) {
-                System.out.printf("onException() async send Throwable=%s %n", var1);
-            }
-        });
-        System.out.printf(".... rocketMQTemplate.asyncSend <%s> end ...%n ", orderPaidTopic );
+//        System.out.printf("============  rocketMQTemplate.asyncSend ....<%s>  %n " , orderPaidTopic );
+//        // Send user-defined object，异步方式发送
+//        rocketMQTemplate.asyncSend(orderPaidTopic, new OrderPaidEvent("T_001", new BigDecimal("88.00")), new SendCallback() {
+//            public void onSuccess(SendResult var1) {
+//                System.out.printf("onSuccess() async send, SendResult=%s %n", var1);
+//            }
+//
+//            public void onException(Throwable var1) {
+//                System.out.printf("onException() async send Throwable=%s %n", var1);
+//            }
+//        });
+//        System.out.printf(".... rocketMQTemplate.asyncSend <%s> end ...%n ", orderPaidTopic );
 
         System.out.printf("==============  rocketMQTemplate.convertAndSend ...<%s>  %n " , msgExtTopic );
         // 指定topic的同时，设置tag值，以便消费端可以根据tag值进行选择性消费
-        rocketMQTemplate.convertAndSend(msgExtTopic + ":tag0", "I'm tag0");  // tag0 will not be consumer-selected
-        System.out.printf("run() syncSend <%s> tag: %s %n", msgExtTopic, "tag0");
-        rocketMQTemplate.convertAndSend(msgExtTopic + ":tag1", "I'm tag1");
-        System.out.printf("run() syncSend <%s> tag: %s %n", msgExtTopic, "tag1");
-
-        System.out.printf(".... rocketMQTemplate.convertAndSend <%s> end ... %n" , msgExtTopic);
-
-        System.out.println();
-        System.out.println();
-
-        // Send transactional messages
+//        rocketMQTemplate.convertAndSend(msgExtTopic + ":tag0", "I'm tag0");  // tag0 will not be consumer-selected
+//        System.out.printf("run() syncSend <%s> tag: %s %n", msgExtTopic, "tag0");
+//        rocketMQTemplate.convertAndSend(msgExtTopic + ":tag1", "I'm tag1");
+//        System.out.printf("run() syncSend <%s> tag: %s %n", msgExtTopic, "tag1");
+//
+//        System.out.printf(".... rocketMQTemplate.convertAndSend <%s> end ... %n" , msgExtTopic);
+//
+//        System.out.println();
+//        System.out.println();
+//
+//        // Send transactional messages
         testTransaction();
     }
 

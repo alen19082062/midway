@@ -1,7 +1,5 @@
 package com.gg.midway.flow_control.web;
 
-//import com.alibaba.nacos.api.config.annotation.NacosValue;
-//import com.alibaba.nacos.spring.context.annotation.config.NacosPropertySource;
 import com.alibaba.csp.sentinel.Entry;
 import com.alibaba.csp.sentinel.SphU;
 import com.alibaba.csp.sentinel.slots.block.BlockException;
@@ -18,7 +16,6 @@ import java.util.Map;
  * 创建服务
  */
 @RestController
-// @NacosPropertySource(dataId = "web-config", autoRefreshed = true)
 public class WebController {
 
     @Value("${server.port}")
@@ -32,11 +29,6 @@ public class WebController {
     @Autowired
     private ConfigurableApplicationContext applicationContext;
 
-    /**
-     * 服务接口
-     * @param name
-     * @return
-     */
     @RequestMapping("/hello")
     public String hello(@RequestParam("name")String name) {
         System.out.println("sayHello() name : " + name );
@@ -45,11 +37,6 @@ public class WebController {
         return str ;
     }
 
-    /**
-     * 服务接口
-     * @param name
-     * @return
-     */
     @RequestMapping("/hi/{name}")
     public Map<String,Object> hi(@PathVariable("name") String name) {
         System.out.println("hi() name : " + name );
@@ -64,15 +51,14 @@ public class WebController {
             map.put("port",port);
             System.out.println("hi() port : " + port );
         } catch (BlockException e) {
-            System.out.println("access resource hi block ....");
             // Handle rejected request.
+            map.put("desc","Blocked by flow control ...");
+            map.put("ret",8001);
+            System.out.println("access resource hi block ....");
             e.printStackTrace();
         }
         return map ;
     }
-
-    //@NacosValue(value = "${nacos.web.propertie:123}", autoRefreshed = true)
-    //private String testProperties;
 
     /**
      * 测试 nacos 配置参数
@@ -88,19 +74,16 @@ public class WebController {
             System.out.println("conf() enter \"conf\" resources ...");
 
             confCount++ ;
-            //System.out.println("conf() testProperties = "  + testProperties );
-            // map.put("nacos.web.propertie",testProperties);
             map.put("port",port);
             map.put("backend_conf_count",confCount);
 
         } catch (BlockException e) {
             // Handle rejected request.
+            map.put("desc","Blocked by flow control ...");
+            map.put("ret",8001);
             System.out.println("access resource conf block ....");
             e.printStackTrace();
         }
         return map ;
     }
-
-
-
 }

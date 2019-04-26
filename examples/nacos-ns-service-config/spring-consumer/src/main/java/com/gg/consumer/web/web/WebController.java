@@ -25,22 +25,11 @@ import java.util.Map;
  */
 @RestController
 public class WebController {
-
-    //@Reference(version = "${demo.service.version}")
-    //private HelloService demoService;
-
     private static int clickCount = 0 ;
 
     private static final String SERVICE_NAME = "spring-nacos-service-web-producer";
-    private static final String HOST = "192.168.10.116";
-
-    // 注入配置文件上下文
-    @Autowired
-    private ConfigurableApplicationContext applicationContext;
     @Autowired
     private DiscoveryClient discoveryClient;
-    // @Autowired
-    private LoadBalancerClient loadBalancerClient;
     @Autowired
     private RestTemplate restTemplate;
 
@@ -54,11 +43,6 @@ public class WebController {
         return discoveryClient.getInstances(SERVICE_NAME);
     }
 
-    /**
-     * 调用 hello 服务，服务端返回 String 类型
-     * @param name
-     * @return  Map 对象
-     */
     @RequestMapping("/hello")
     public Map<String, Object> hello(@RequestParam("name") String name) {
         Map<String, Object> map = new HashMap<String, Object>();
@@ -76,20 +60,17 @@ public class WebController {
         String callServiceResult = restTemplate.getForObject(
                 "http://"+SERVICE_NAME+"/hello?name={name}", String.class,map);
         System.out.println(callServiceResult);
-
+        System.out.println("hello() SERVICE_NAME : " + SERVICE_NAME);
         map.put("callServiceResult",callServiceResult);
-
         return map;
     }
 
-    /**
-     * 调用 hello 服务，服务端返回 String 类型
-     * @return  String 对象
-     */
     @RequestMapping("/hello2")
     public String hello2() {
         ResponseEntity<String> responseEntity = restTemplate.getForEntity(
                 "http://"+SERVICE_NAME+"/hello?name=test", String.class);
+
+        System.out.println("hello2() SERVICE_NAME : " + SERVICE_NAME);
 
         String body = responseEntity.getBody();
         HttpStatus statusCode = responseEntity.getStatusCode();
@@ -103,11 +84,6 @@ public class WebController {
         return result.toString();
     }
 
-    /**
-     * 调用 hello 服务，服务端返回 MAP 类型
-     * @param name
-     * @return  Map 对象
-     */
     @RequestMapping("/hi/{name}")
     public Map<String, String> hi(@PathVariable("name") String name) {
         System.out.println("Running class full name : " + this.getClass().getCanonicalName());
@@ -120,18 +96,13 @@ public class WebController {
         return entity ;
     }
 
-    /**
-     * 调用服务，返回 Nacos 参数列表，MAP 类型
-     * @return  Map 对象
-     */
     @RequestMapping("/conf")
     public Map<String, Object>  conf() {
         System.out.println("Running class full name : " + this.getClass().getCanonicalName());
+        System.out.println("conf() SERVICE_NAME : " + SERVICE_NAME);
 
         Map<String,Object> entity = restTemplate.getForObject(
                 "http://"+SERVICE_NAME+"/conf",Map.class );
         return entity ;
     }
-
-
 }

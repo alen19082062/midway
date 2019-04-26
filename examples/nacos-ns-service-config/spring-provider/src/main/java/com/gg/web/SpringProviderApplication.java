@@ -11,8 +11,6 @@ import java.util.Scanner;
 /**
  * 开启服务发现
  */
-
-
 @SpringBootApplication
 @EnableDiscoveryClient
 @NacosPropertySource(dataId = "web-mysql", autoRefreshed = true)
@@ -20,17 +18,8 @@ public class SpringProviderApplication {
 
     public static void main(String[] args) {
 
-        /*
-        Scanner scanner = new Scanner(System.in);
-        String port = scanner.nextLine();
-        System.out.println("port : " + port );
-        new SpringApplicationBuilder(SpringProviderApplication.class)
-                .properties("server.port=" + port).run(args);
-        */
-
         ApplicationContext ctx = SpringApplication.run(SpringProviderApplication.class, args);
 
-        //所有的bean,参考：http://412887952-qq-com.iteye.com/blog/2314051
         String[] beanNames = ctx.getBeanDefinitionNames();
         //String[] beanNames = ctx.getBeanNamesForAnnotation(RestController.class);//所有添加该注解的bean
         System.out.println("====================== " );

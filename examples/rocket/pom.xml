@@ -17,31 +17,11 @@
         <module>rocketmq-consume-demo</module>
     </modules>
 
-    <properties>
-        <rocketmq-spring-boot-starter-version>2.0.1</rocketmq-spring-boot-starter-version>
-    </properties>
-
-    <dependencies>
-        <dependency>
-            <groupId>org.apache.rocketmq</groupId>
-            <artifactId>rocketmq-spring-boot-starter</artifactId>
-            <version>${rocketmq-spring-boot-starter-version}</version>
-        </dependency>
-    </dependencies>
-
     <build>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <version>2.1.2.RELEASE</version>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>repackage</goal>
-                        </goals>
-                    </execution>
-                </executions>
             </plugin>
         </plugins>
     </build>

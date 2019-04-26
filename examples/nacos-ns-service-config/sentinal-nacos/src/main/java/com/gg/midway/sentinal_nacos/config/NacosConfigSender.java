@@ -33,7 +33,7 @@ public class NacosConfigSender {
                 + "  {\n"
                 + "    \"resource\": \"hello\",\n"
                 + "    \"controlBehavior\": 0,\n"
-                + "    \"count\": 1.0,\n"
+                + "    \"count\": 2.0,\n"
                 + "    \"grade\": 1,\n"
                 + "    \"limitApp\": \"default\",\n"
                 + "    \"strategy\": 0\n"

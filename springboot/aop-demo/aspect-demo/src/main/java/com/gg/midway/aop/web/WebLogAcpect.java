@@ -24,10 +24,11 @@ public class WebLogAcpect {
     }
 
     /**
-     * 定义切入点，切入点为com.gg.spring.aop下的所有函数
+     * 定义切入点，切入点为com.gg.midway.aop.web下的所有函数
      */
     @Pointcut("execution(public * com.gg.midway.aop.web..*.*(..))")
     public void webLog() {
+        System.out.println("webLog() ======================  ");
         System.out.println("webLog() init... 切入点 ： execution(public * com.gg.spring.aop.web..*.*(..))");
     }
 
@@ -39,15 +40,14 @@ public class WebLogAcpect {
      */
     @Before("webLog()")
     public void doBefore(JoinPoint joinPoint) throws Throwable {
-        logger.info("doBefore() ...");
+        logger.info("doBefore()  =================== ");
         // 接收到请求，记录请求内容
         ServletRequestAttributes attributes = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
         HttpServletRequest request = attributes.getRequest();
 
         // 记录下请求内容
         logger.info("URL : " + request.getRequestURL().toString());
-        System.out.println("URL : " + request.getRequestURL().toString());
-
+        // System.out.println("URL : " + request.getRequestURL().toString());
         logger.info("HTTP_METHOD : " + request.getMethod());
         logger.info("IP : " + request.getRemoteAddr());
         logger.info("CLASS_METHOD : " + joinPoint.getSignature().getDeclaringTypeName() + "." + joinPoint.getSignature().getName());

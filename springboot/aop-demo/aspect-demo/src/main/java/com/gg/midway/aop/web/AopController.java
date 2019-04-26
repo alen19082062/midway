@@ -13,4 +13,9 @@ public class AopController {
         System.out.println("sayHello() begin ... ");
         return "hello " + name;
     }
+    @RequestMapping(value = "/hi", method = RequestMethod.GET)
+    public String hi(String name) {
+        System.out.println("hi() begin ... ");
+        return "hello " + name;
+    }
 }

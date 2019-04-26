@@ -22,28 +22,28 @@ public class SampleClass {
         enhancer.setCallback(new MethodInterceptor() {
             @Override
             public Object intercept(Object obj, Method method, Object[] args, MethodProxy proxy) throws Throwable {
-                System.out.println("method " + method.getName() + "() begin ...");
+                System.out.println("intercept() method " + method.getName() + "() begin ...");
                 //纳秒  1毫秒=1000纳秒
                 long time = System.nanoTime();
                 Object resultObj = proxy.invokeSuper(obj, args);
-                System.out.println(method.getName() + "运行耗时：" + (System.nanoTime() - time) + "纳秒");
-                System.out.println("method " + method.getName() + "() end ...");
+                System.out.println("intercept() " + method.getName() + "运行耗时：" + (System.nanoTime() - time) + "纳秒");
+                System.out.println("intercept() method " + method.getName() + "() end ...");
                 return resultObj;
             }
         });
         SampleClass sample = (SampleClass) enhancer.create();
 
         sample.test();
-        Thread.sleep(1000);
+        Thread.sleep(3000);
 
         String str = "" + sample.hashCode();
         System.out.println("hashCode() ret : " + str);
-        Thread.sleep(1000);
+        Thread.sleep(3000);
 
         // toString() 操作，会调用 hashCode()
         str = sample.toString();
         System.out.println("toString() " + sample.toString());
-        Thread.sleep(1000);
+        Thread.sleep(3000);
 
         // 打印出 class 类名
         str = "" + sample.getClass();

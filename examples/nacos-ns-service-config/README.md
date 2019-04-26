@@ -6,22 +6,26 @@
 
 2019-3-29 加入 namespace 功能 ， 在 application.properties 文件中增加 
 nacos.namespace=bae90a31-2c5c-4ddb-9f74-4a5363a6cc02
+2019-4-25 使用 nacos 1.0 版本 
 
 模块功能描述 
 【flow-control】 
- 基于 sentinel 的流量控制 
+ 基于 sentinel 的流量控制，基本规则测试  
+
+【flow-control-2】
+从 nacos 中取配置规则 
 
 【sentinale-nacos】 
  从Nacos server 取流控规则，对 web 访问进行控制 
  \config\NacosConfigSender 发送规则到 Nacos 服务器  
  
 【simple-config】 
- 从Nacos server取通用的配置参数 
+ 最简单的Nocso配置示例，从Nacos 取通用的配置参数，可以使用不同的命名空间 
 
 【mybatis-config】
 1、从Nacos server取通用的配置参数，
 2、从Nacos server取mysql配置参数，
-3、使用mybatis+连接池，对mysql数据库查询 
+3、使用mybatis+ Spring 自带连接池，对mysql数据库查询 
 
 【spring-consumer】 
  从Nacos server发现服务，调用 spring-provider 提供的服务 

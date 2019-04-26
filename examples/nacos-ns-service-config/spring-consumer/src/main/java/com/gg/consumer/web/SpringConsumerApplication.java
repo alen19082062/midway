@@ -15,8 +15,7 @@ import org.springframework.web.client.RestTemplate;
 import javax.xml.ws.Service;
 
 /**
- * DubboConsumerApplication
- * 消费者启动类
+ * 消费者主应用
  */
 @SpringBootApplication
 @EnableDiscoveryClient
@@ -41,18 +40,14 @@ public class SpringConsumerApplication {
         ApplicationContext ctx = SpringApplication.run(SpringConsumerApplication.class, args);
         System.out.println("Running class full name : " + SpringConsumerApplication.class.getCanonicalName());
 
-        //所有的bean,参考：http://412887952-qq-com.iteye.com/blog/2314051
         String[] beanNames = ctx.getBeanDefinitionNames();
-        System.out.println("====================== " );
-        System.out.println("bean count = " +  ctx.getBeanDefinitionCount());
+        System.out.println("====================== ");
+        System.out.println("bean count = " + ctx.getBeanDefinitionCount());
         int i = 0;
         for (String str : beanNames) {
-            String print_str = "" + (++i) + " : beanName:" + str ;
+            String print_str = "" + (++i) + " : beanName:" + str;
             // System.out.println(print_str);
         }
-        System.out.println("====================== " );
-
+        System.out.println("====================== ");
     }
-
-
 }

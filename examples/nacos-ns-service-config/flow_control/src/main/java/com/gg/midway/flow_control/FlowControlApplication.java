@@ -1,5 +1,6 @@
 package com.gg.midway.flow_control;
 
+import com.alibaba.csp.sentinel.datasource.Converter;
 import com.alibaba.csp.sentinel.datasource.ReadableDataSource;
 import com.alibaba.csp.sentinel.datasource.nacos.NacosDataSource;
 import com.alibaba.csp.sentinel.slots.block.RuleConstant;
@@ -22,16 +23,14 @@ public class FlowControlApplication {
 
         List<FlowRule> rules = new ArrayList<>();
         // 定义了资源 HelloWorld 每秒最多只能通过 1 个请求。
-        // 无法正常工作
-
-//        FlowRule rule = new FlowRule();
-//        rule.setResource("hello");
-//        rule.setGrade(RuleConstant.FLOW_GRADE_QPS);
-//        // Set limit QPS to 2.
-//        rule.setCount(1);
-//        rule.setLimitApp("default");
-//        rules.add(rule);
-//        // FlowRuleManager.loadRules(rules);
+        FlowRule rule = new FlowRule();
+        rule.setResource("hello");
+        rule.setGrade(RuleConstant.FLOW_GRADE_QPS);
+        // Set limit QPS to 2.
+        rule.setCount(1);
+        rule.setLimitApp("default");
+        rules.add(rule);
+        // FlowRuleManager.loadRules(rules);
 
         // 流控 hi
         FlowRule rule2 = new FlowRule();
@@ -54,7 +53,6 @@ public class FlowControlApplication {
     }
 
     private static final String KEY = "TestResource";
-    // nacos server ip
     private static final String remoteAddress = "localhost";
     // nacos group
     private static final String groupId = "Sentinel:Demo";
@@ -76,11 +74,10 @@ public class FlowControlApplication {
     public static void main(String[] args) {
         ApplicationContext ctx = SpringApplication.run(FlowControlApplication.class, args);
 
-        // FlowControlApplication.initFlowRules();
+        FlowControlApplication.initFlowRules();
 
-        loadRules();
+        // loadRules();
 
-        //所有的bean,参考：http://412887952-qq-com.iteye.com/blog/2314051
         String[] beanNames = ctx.getBeanDefinitionNames();
         System.out.println("====================== " );
         System.out.println("bean count = " +  ctx.getBeanDefinitionCount());

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/rocket-client/rocket-client.iml" filepath="$PROJECT_DIR$/rocket-client/rocket-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/rocketmq-consume-demo/rocketmq-consume-demo.iml" filepath="$PROJECT_DIR$/rocketmq-consume-demo/rocketmq-consume-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/rocketmq-produce-demo/rocketmq-produce-demo.iml" filepath="$PROJECT_DIR$/rocketmq-produce-demo/rocketmq-produce-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/rocketmq-spring-boot-samples.iml" filepath="$PROJECT_DIR$/rocketmq-spring-boot-samples.iml" />

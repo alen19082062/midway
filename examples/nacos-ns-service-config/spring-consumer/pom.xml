@@ -5,11 +5,11 @@
 
     <groupId>com.gg.web.consumer</groupId>
     <artifactId>spring-consumer</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
     <name>spring-consumer</name>
-    <description>Spring consumer and Nacos</description>
+    <description>Consumer service for Nacos discovery</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -33,7 +33,7 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
-            <version>0.2.1.RELEASE</version>
+            <version>0.2.2.RELEASE</version>
         </dependency>
 
         <!--

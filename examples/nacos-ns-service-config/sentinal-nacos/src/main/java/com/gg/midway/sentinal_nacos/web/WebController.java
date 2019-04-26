@@ -42,7 +42,7 @@ public class WebController {
     public String hello(@RequestParam("name")String name) {
         String str = "Blocked by flow control ..." ;
         try (Entry entry = SphU.entry("hello")) {
-            // Your business logic here.
+            // business logic here.
             System.out.println("hello() enter \"hello\" resources ...");
             System.out.println("hello() name : " + name );
             str = "hello ---> "+name+" port -->"+port;
@@ -81,13 +81,11 @@ public class WebController {
         return map ;
     }
 
-    @NacosValue(value = "${nacos.web.propertie:123}", autoRefreshed = true)
+    @NacosValue(value = "${nacos.env:unknown}", autoRefreshed = true)
+    private String envProperties;
+    @NacosValue(value = "${nacos.test:00000}", autoRefreshed = true)
     private String testProperties;
 
-    /**
-     * 测试 nacos 配置参数
-     * @return
-     */
     @GetMapping(value = {"/conf"})
     public Map<String,Object> conf() {
         System.out.println("Running class full name : " + this.getClass().getCanonicalName());
@@ -102,7 +100,8 @@ public class WebController {
 
             confCount++ ;
             System.out.println("conf() testProperties = "  + testProperties );
-            map.put("nacos.web.propertie",testProperties);
+            map.put("nacos.test",testProperties);
+            map.put("nacos.env",envProperties);
             map.put("port",port);
             map.put("backend_conf_count",confCount);
 
