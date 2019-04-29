@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Class-Path: F:\git_code\19082062\midway\springboot\instrument\lib\asm-7.1.jar 
+Premain-Class: com.gg.javaagent.Agent
+Agent-Class: com.gg.javaagent.Agent
+Can-Redefine-Classes: true
+Can-Retransform-Classes: true
+Created-By: 1.8.0_211 (Oracle Corporation)
+

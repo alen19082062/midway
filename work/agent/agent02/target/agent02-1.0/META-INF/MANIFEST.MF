@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: Administrator
+Build-Jdk: 1.8.0_211
+Agent-Class: com.gg.agent.Agent
+Can-Redefine-Classes: true
+Can-Retransform-Classes: true
+Premain-Class: com.gg.agent.Agent
+Class-Path: .
+

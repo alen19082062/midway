@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Premain-Class: com.gg.agent.Agent
+Agent-Class: com.gg.agent.Agent
+Can-Redefine-Classes: true
+Can-Retransform-Classes: true
+Class-Path: asm-7.1.jar asm-tree-7.1.jar asm-analysis-7.1.jar asm-commons-7.1.jar
+
