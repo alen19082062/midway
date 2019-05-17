@@ -7,57 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b94d3219-a1b5-4e76-9e7d-b6c2051ea974" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../springboot/aop-demo/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springboot/instrument/.idea/artifacts/unnamed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springboot/instrument/src/MANIFEST-app.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springboot/instrument/src/com/gg/javaagent/Agent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springboot/instrument/src/com/gg/javaagent/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springboot/instrument/src/com/gg/javaagent/MyClassWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springboot/instrument/src/com/gg/javaagent/MyMethodWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springboot/instrument/src/com/gg/javaagent/StaticTimer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/agent01_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent01/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent01/src/main/java/com/gg/agent/Agent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent01/src/main/java/com/gg/agent/LogTransformer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent01/src/main/java/com/gg/agent/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent01/src/main/java/com/gg/agent/TimeCountAdpter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent01/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent02/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent02/src/main/java/com/gg/agent/Agent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent02/src/main/java/com/gg/agent/LogTransformer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent02/src/main/java/com/gg/agent/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello_jar/.idea/artifacts/hello_jar_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello_jar/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello_jar/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello_jar/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello_jar/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello_jar/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello_jar/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello_jar/hello_jar.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello_jar/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello_jar/src/main/java/gg/Hello.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot/aop-demo/asm-demo/src/main/java/com/gg/midway/asm/demo/CostTime2.java" beforeDir="false" afterPath="$PROJECT_DIR$/agent02/src/main/java/com/gg/agent/TimeCountAdpter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot/aop-demo/asm-demo/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot/aop-demo/cglib-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot/aop-demo/cglib-demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot/instrument/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot/instrument/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot/instrument/instrument.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot/instrument/instrument.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot/instrument/out/production/instrument/META-INF/instrument.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot/instrument/src/com/gg/proxy/instrument/client/InstrumentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot/instrument/src/com/gg/instrument/client/InstrumentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot/instrument/src/com/gg/proxy/instrument/client/Rand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot/instrument/src/com/gg/instrument/client/Rand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot/instrument/src/com/gg/proxy/instrument/javaagent/Agent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot/instrument/src/com/gg/proxy/instrument/javaagent/ClassTimer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot/instrument/src/com/gg/javaagent/ClassTimer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot/instrument/src/com/gg/proxy/invoke/HelloImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot/instrument/src/com/gg/invoke/HelloImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot/instrument/src/com/gg/proxy/invoke/IHello.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot/instrument/src/com/gg/invoke/IHello.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot/instrument/src/com/gg/proxy/invoke/JDKInvocationHandlerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot/instrument/src/com/gg/invoke/JDKInvocationHandlerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot/instrument/src/com/gg/proxy/invoke/ProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot/instrument/src/com/gg/invoke/ProxyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -89,7 +39,7 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/agent01/src/main/resources/META-INF/MANIFEST.MF">
           <provider selected="true" editor-type-id="text-editor">
@@ -102,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/agent02/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
+            <state relative-caret-position="326">
+              <caret line="44" column="40" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -111,7 +61,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/agent02/src/main/java/com/gg/agent/LogTransformer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="390">
               <caret line="17" column="21" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="21" />
             </state>
           </provider>
@@ -134,7 +84,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/agent02/src/main/java/com/gg/agent/TimeCountAdpter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-190">
+            <state relative-caret-position="2370">
               <caret line="85" column="33" selection-start-line="85" selection-start-column="29" selection-end-line="85" selection-end-column="33" />
             </state>
           </provider>
@@ -143,7 +93,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/agent01/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
+            <state relative-caret-position="990">
               <caret line="33" selection-start-line="14" selection-start-column="2" selection-end-line="33" />
             </state>
           </provider>
@@ -230,15 +180,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/agent02/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../src_code/src_skywalking6/skywalking-6.0.0-GA" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -313,29 +263,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556509077794</updated>
-      <workItem from="1556509087932" duration="25568000" />
+      <workItem from="1556509087932" duration="27350000" />
+      <workItem from="1556627063721" duration="1229000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25568000" />
+    <option name="totallyTimeSpent" value="28579000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1384" height="716" extended-state="6" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20610687" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20992367" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" weight="0.32849365" />
-      <window_info anchor="bottom" id="Docker" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.42105263" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.74228674" />
@@ -343,55 +288,35 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" weight="0.32977098" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" weight="0.32977098" />
+      <window_info anchor="bottom" id="Docker" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.42105263" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32849365" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.49727768" weight="0.24961832" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" sideWeight="0.49909255" weight="0.32977098" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" sideWeight="0.5027223" side_tool="true" weight="0.24961832" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/agent01/hello/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello/src/main/java/com/gg/Hello.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-          <folding>
-            <element signature="e#86#87#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/agent01/src/main/java/com/gg/agent/AddTimerMethodAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="62" column="1" lean-forward="true" selection-start-line="9" selection-end-line="62" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#2176#2177#0" expanded="true" />
-            <element signature="e#2252#2253#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/agent01/hello/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/hello/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/hello/src/main/java/com/gg/Hello.java" />
+    <entry file="file://$PROJECT_DIR$/agent01/src/main/java/com/gg/agent/AddTimerMethodAdapter.java" />
     <entry file="jar://D:/dev/maven36/repository/org/ow2/asm/asm/7.1/asm-7.1.jar!/org/objectweb/asm/MethodVisitor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -410,13 +335,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello/src/main/java/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/hello/src/main/java/META-INF/MANIFEST.MF" />
     <entry file="file://$PROJECT_DIR$/agent01/src/main/java/com/gg/agent/Agent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -441,23 +360,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/agent01/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="33" selection-start-line="14" selection-start-column="2" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/agent02/src/main/java/com/gg/agent/Main.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/agent02/src/main/java/com/gg/agent/Agent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="7" column="67" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="67" />
         </state>
       </provider>
     </entry>
@@ -499,22 +401,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/agent02/src/main/java/com/gg/agent/LogTransformer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="390">
           <caret line="17" column="21" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agent02/src/main/java/com/gg/agent/Main.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agent02/src/main/java/com/gg/agent/Agent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="7" column="67" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/agent02/src/main/java/com/gg/agent/TimeCountAdpter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-190">
+        <state relative-caret-position="2370">
           <caret line="85" column="33" selection-start-line="85" selection-start-column="29" selection-end-line="85" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agent01/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="33" selection-start-line="14" selection-start-column="2" selection-end-line="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/agent02/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
+        <state relative-caret-position="326">
+          <caret line="44" column="40" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
         </state>
       </provider>
     </entry>

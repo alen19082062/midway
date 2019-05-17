@@ -5,6 +5,7 @@
 
     <groupId>com.gg.midway.aop</groupId>
     <artifactId>aop-demo</artifactId>
+    <packaging>pom</packaging>
     <version>1.0.0</version>
     <name>aop-demo</name>
     <description>AOP Demo for Spring Boot</description>
@@ -14,6 +15,7 @@
         <module>cglib-demo</module>
         <module>asm-demo</module>
         <module>asm-aop</module>
+        <module>byte-buddy</module>
 
     </modules>
 
