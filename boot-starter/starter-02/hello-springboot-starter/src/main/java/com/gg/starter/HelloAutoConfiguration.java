@@ -8,8 +8,10 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-@Configuration
+@Configuration  //  表明这是一个配置类。
+// 使我们之前配置的 @ConfigurationProperties 生效，让配置的属性成功的进入 Bean 中。
 @EnableConfigurationProperties(HelloProperties.class)
+// 当项目当前 classpath 下存在 HelloService 时，后面的配置才生效。
 @ConditionalOnClass(HelloService.class)
 @ConditionalOnProperty(prefix = "hello.name" , value = "enable", matchIfMissing = true)
 public class HelloAutoConfiguration {
@@ -21,6 +23,9 @@ public class HelloAutoConfiguration {
     public HelloService helloService() {
         HelloService helloService = new HelloService();
         helloService.setHelloProperties(helloProperties);
+        // 与上一句，重复了，两种方法赋值
+        helloService.setName(helloProperties.getName());
+        helloService.setMsg(helloProperties.getMsg());
         return helloService;
     }
 }

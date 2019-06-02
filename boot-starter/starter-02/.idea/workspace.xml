@@ -2,94 +2,169 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd237c2f-f8a9-48cd-b135-e08270b148d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../helloworldspringbootstarter/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../helloworldspringbootstarter/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../helloworldspringbootstarter/src/main/java/com/gg/starter/HeloProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../helloworldspringbootstarter/src/main/java/com/gg/starter/HeloService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../helloworldspringbootstarter/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_16_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-springboot-starter/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-springboot-starter/hello-springboot-starter.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-springboot-starter/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-springboot-starter/src/main/java/com/gg/starter/HelloAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-springboot-starter/src/main/java/com/gg/starter/HelloProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-springboot-starter/src/main/java/com/gg/starter/HelloService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-springboot-starter/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-springboot-starter/target/classes/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-springboot-starter/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-springboot-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-springboot-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-hello-starter/src/main/java/com/gg/springbootstarter/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springboot/aop-demo/byte-buddy/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springboot/aop-demo/byte-buddy/src/main/java/com/gg/ByteBuddyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springboot/aop-demo/byte-buddy/src/main/java/com/gg/ByteBuddyTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springboot/aop-demo/byte-buddy/src/main/java/com/gg/ByteBuddyTest3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springboot/aop-demo/byte-buddy/src/main/java/com/gg/Intercept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springboot/aop-demo/byte-buddy/src/main/java/com/gg/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springboot/aop-demo/byte-buddy/src/main/java/com/gg/UserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot/aop-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot/aop-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dubbo27/demo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dubbo27/demo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dubbo27/demo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dubbo27/demo/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dubbo27/demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dubbo27/demo/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dubbo27/demo/demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dubbo27/demo/dubbo-api/dubbo-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dubbo27/demo/dubbo-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dubbo27/demo/dubbo-api/src/main/java/com/gg/api/service/hello/HelloService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dubbo27/demo/dubbo-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dubbo27/demo/dubbo-consumer/src/main/java/web/DubboConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dubbo27/demo/dubbo-consumer/src/main/java/web/controller/DemoConsumerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dubbo27/demo/dubbo-consumer/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dubbo27/demo/dubbo-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dubbo27/demo/dubbo-provider/src/main/java/provider/DubboProviderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dubbo27/demo/dubbo-provider/src/main/java/provider/service/impl/HelloServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dubbo27/demo/dubbo-provider/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dubbo27/demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/redis-lettuce/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/redis-lettuce/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/redis-lettuce/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/redis-lettuce/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/redis-lettuce/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/redis-lettuce/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/redis-lettuce/lettuce/src/main/java/com/gg/midway/lettuce/config/RedisCacheAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/redis-lettuce/lettuce/src/main/java/com/gg/midway/lettuce/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/redis-lettuce/lettuce/src/main/java/com/gg/midway/lettuce/dao/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/redis-lettuce/lettuce/src/main/java/com/gg/midway/lettuce/util/RedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/redis-lettuce/lettuce/src/main/java/com/gg/midway/lettuce/web/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/redis-lettuce/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/redis-lettuce/redis-lettuce.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/redis-lettuce/spring-session/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/redis-lettuce/spring-session/spring-session.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/redis-lettuce/spring-session/src/main/java/com/gg/midway/lettuce/SessionApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/redis-lettuce/spring-session/src/main/java/com/gg/midway/lettuce/config/RedisCacheAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/redis-lettuce/spring-session/src/main/java/com/gg/midway/lettuce/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/redis-lettuce/spring-session/src/main/java/com/gg/midway/lettuce/dao/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/redis-lettuce/spring-session/src/main/java/com/gg/midway/lettuce/util/RedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/redis-lettuce/spring-session/src/main/java/com/gg/midway/lettuce/web/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/redis-lettuce/spring-session/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__io_lettuce_lettuce_core_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__io_netty_netty_buffer_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__io_netty_netty_codec_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__io_netty_netty_common_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__io_netty_netty_handler_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__io_netty_netty_resolver_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__io_netty_netty_transport_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__io_projectreactor_reactor_core_3_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_16_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_springframework_spring_aop_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_springframework_spring_beans_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_springframework_spring_context_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_springframework_spring_core_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_springframework_spring_expression_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_springframework_spring_oxm_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_springframework_spring_test_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_springframework_spring_tx_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_springframework_spring_web_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/demo/src/main/java/com/gg/midway/redis/demo/config/ClusterRedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/demo/src/main/java/com/gg/midway/redis/demo/config/SentinelRedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/demo/src/main/java/com/gg/midway/redis/demo/config/StandaloneRedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/demo/src/main/java/com/gg/midway/redis/demo/provider/ICacheProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/demo/src/main/java/com/gg/midway/redis/demo/provider/impl/JedisCacheProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/demo/src/main/java/com/gg/midway/redis/demo/web/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/demo/src/main/resources/application-cluster.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/demo/src/main/resources/application-sentinel.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/demo/src/main/resources/application-standalone.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/jedisdemo/jedisdemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/jedisdemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/jedisdemo/src/main/java/com/gg/midway/jedis/JedisPoolTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/jedisdemo/src/main/java/com/gg/midway/jedis/JedisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/jedisdemo/src/main/java/com/gg/midway/jedis/RedisConf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/lettuce/lettuce.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/lettuce/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/lettuce/src/main/java/com/gg/midway/lettuce/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/lettuce/src/main/java/com/gg/midway/lettuce/config/RedisCacheAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/lettuce/src/main/java/com/gg/midway/lettuce/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/lettuce/src/main/java/com/gg/midway/lettuce/dao/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/lettuce/src/main/java/com/gg/midway/lettuce/util/RedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/lettuce/src/main/java/com/gg/midway/lettuce/web/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/lettuce/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-springboot-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-springboot-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-springboot-starter/src/main/java/com/gg/starter/HelloAutoConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-springboot-starter/src/main/java/com/gg/starter/HelloAutoConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-springboot-starter/src/main/java/com/gg/starter/HelloProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-springboot-starter/src/main/java/com/gg/starter/HelloProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-springboot-starter/src/main/java/com/gg/starter/HelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-springboot-starter/src/main/java/com/gg/starter/HelloService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-starter/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-starter/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/use-hello-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/use-hello-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/use-hello-starter/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/use-hello-starter/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../examples/dubbo-rocket-nacos-sentinel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../examples/dubbo-rocket-nacos-sentinel/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../examples/dubbo-rocket-nacos-sentinel/dubbo-consumer/src/main/java/com/gg/consumer/web/DubboConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../examples/dubbo-rocket-nacos-sentinel/dubbo-consumer/src/main/java/com/gg/consumer/web/DubboConsumerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../examples/dubbo-zk-springboot/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../examples/dubbo-zk-springboot/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../examples/dubbo-zk-springboot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../examples/dubbo-zk-springboot/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../redis/sample/jedis=demo/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot/instrument/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot/instrument/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot/instrument/src/com/gg/invoke/HelloImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot/instrument/src/com/gg/invoke/HelloImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../work/agent/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../work/agent/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../work/hello_jar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../work/hello_jar/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../work/hello_jar/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../work/hello_jar/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/springboot-starter-autoconfigurer/target/" />
@@ -109,7 +184,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/use-hello-starter/src/main/java/com/gg/springbootstarter/SpringbootStarterApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
+            <state relative-caret-position="360">
               <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -118,11 +193,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/use-hello-starter/src/main/java/com/gg/springbootstarter/HelloController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state relative-caret-position="390">
+              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -134,7 +209,7 @@
         <entry file="file://$PROJECT_DIR$/hello-springboot-starter/src/main/java/com/gg/starter/HelloAutoConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -143,22 +218,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hello-springboot-starter/HELP.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="90">
-                <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/use-hello-starter/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="1740">
+              <caret line="58" column="10" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -175,8 +238,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/use-hello-starter/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="120">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -190,14 +253,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hello-springboot-starter/src/main/java/com/gg/starter/HelloService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="7" column="26" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="26" />
+            <state relative-caret-position="-111">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
               <folding>
-                <element signature="e#118#119#0" expanded="true" />
-                <element signature="e#184#185#0" expanded="true" />
+                <element signature="e#683#684#0" expanded="true" />
+                <element signature="e#721#722#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -206,11 +269,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hello-springboot-starter/src/main/java/com/gg/starter/HelloProperties.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-              <folding>
-                <element signature="e#257#258#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="258">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hello-springboot-starter/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -228,6 +297,7 @@
     <findStrings>
       <find>com.gg</find>
       <find>matched</find>
+      <find>hello</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -247,9 +317,11 @@
         <option value="$PROJECT_DIR$/springboot-starter-autoconfigurer/HELP.md" />
         <option value="$PROJECT_DIR$/springboot-starter/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/springboot-starter-autoconfigurer/src/main/java/com/gg/starter/HelloAutoConfiguration.java" />
-        <option value="$PROJECT_DIR$/hello-springboot-starter/pom.xml" />
-        <option value="$PROJECT_DIR$/use-hello-starter/pom.xml" />
         <option value="$PROJECT_DIR$/use-hello-starter/src/main/java/com/gg/springbootstarter/SpringbootStarterApplication.java" />
+        <option value="$PROJECT_DIR$/use-hello-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-springboot-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-springboot-starter/src/main/java/com/gg/starter/HelloProperties.java" />
+        <option value="$PROJECT_DIR$/hello-springboot-starter/src/main/java/com/gg/starter/HelloService.java" />
         <option value="$PROJECT_DIR$/hello-springboot-starter/src/main/java/com/gg/starter/HelloAutoConfiguration.java" />
         <option value="$PROJECT_DIR$/use-hello-starter/src/main/resources/application.properties" />
       </list>
@@ -330,64 +402,12 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="starter" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="starter-02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello-springboot-starter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="starter-02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello-springboot-starter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="starter-02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="use-hello-starter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="starter-02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="use-hello-starter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="starter-02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="use-hello-starter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="starter-02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="use-hello-starter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="starter-02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="use-hello-starter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springbootstarter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="starter-02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="use-hello-starter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -399,23 +419,23 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../src_sw61/sw61" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="spring.boot" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\git_code\19082062\midway\boot-starter\starter-02\springboot-starter-autoconfigurer" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\git_code\19082062\midway\boot-starter\starter-02\springboot-starter\src\main\java\com\gg\springbootstarter" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.gg.springbootstarter" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\git_code\19082062\midway\boot-starter\starter-02\springboot-starter\src\main\java\com\gg\springbootstarter" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\git_code\19082062\midway\boot-starter\starter-02\springboot-starter-autoconfigurer" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -473,6 +493,9 @@
       <workItem from="1557802832207" duration="2616000" />
       <workItem from="1557894982254" duration="4041000" />
       <workItem from="1557904609578" duration="2288000" />
+      <workItem from="1558152878412" duration="570000" />
+      <workItem from="1558322147409" duration="3896000" />
+      <workItem from="1559378827585" duration="1259000" />
     </task>
     <servers />
   </component>
@@ -482,13 +505,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17497000" />
+    <option name="totallyTimeSpent" value="23222000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1384" height="716" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25877863" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36793894" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -523,13 +545,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hello-springboot-starter/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="29" selection-start-line="29" selection-end-line="32" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hello-springboot-starter/HELP.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -540,6 +555,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/use-hello-starter/src/main/java/com/gg/springbootstarter/SpringbootStarterApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/use-hello-starter/src/main/java/com/gg/springbootstarter/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/use-hello-starter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1740">
+          <caret line="58" column="10" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/use-hello-starter/src/test/java/com/gg/springbootstarter/SpringbootStarterApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -547,24 +589,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello-springboot-starter/src/main/java/com/gg/starter/HelloProperties.java">
+    <entry file="file://$PROJECT_DIR$/use-hello-starter/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding>
-            <element signature="e#257#258#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-springboot-starter/src/main/java/com/gg/starter/HelloService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="26" />
-          <folding>
-            <element signature="e#118#119#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -575,46 +603,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/hello-springboot-starter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-springboot-starter/src/main/java/com/gg/starter/HelloProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hello-springboot-starter/src/main/java/com/gg/starter/HelloAutoConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/use-hello-starter/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/hello-springboot-starter/src/main/java/com/gg/starter/HelloService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/use-hello-starter/src/main/java/com/gg/springbootstarter/SpringbootStarterApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="-111">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/use-hello-starter/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/use-hello-starter/src/main/java/com/gg/springbootstarter/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
           </folding>
         </state>
       </provider>

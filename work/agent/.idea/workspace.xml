@@ -7,7 +7,89 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b94d3219-a1b5-4e76-9e7d-b6c2051ea974" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__io_lettuce_lettuce_core_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__io_netty_netty_buffer_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__io_netty_netty_codec_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__io_netty_netty_common_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__io_netty_netty_handler_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__io_netty_netty_resolver_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__io_netty_netty_transport_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__io_projectreactor_reactor_core_3_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_springframework_spring_aop_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_springframework_spring_beans_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_springframework_spring_context_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_springframework_spring_core_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_springframework_spring_expression_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_springframework_spring_oxm_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_springframework_spring_test_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_springframework_spring_tx_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/demo/src/main/java/com/gg/midway/redis/demo/config/ClusterRedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/demo/src/main/java/com/gg/midway/redis/demo/config/SentinelRedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/demo/src/main/java/com/gg/midway/redis/demo/config/StandaloneRedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/demo/src/main/java/com/gg/midway/redis/demo/provider/ICacheProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/demo/src/main/java/com/gg/midway/redis/demo/provider/impl/JedisCacheProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/demo/src/main/resources/application-cluster.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/demo/src/main/resources/application-sentinel.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/demo/src/main/resources/application-standalone.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/jedis=demo/jedis=demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/jedis=demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/jedis=demo/src/main/java/com/gg/midway/jedis/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redis/sample/jedis=demo/src/main/java/com/gg/midway/jedis/Test02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../boot-starter/starter-02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../boot-starter/starter-02/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../boot-starter/starter-02/hello-springboot-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../boot-starter/starter-02/hello-springboot-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../boot-starter/starter-02/hello-springboot-starter/src/main/java/com/gg/starter/HelloAutoConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../boot-starter/starter-02/hello-springboot-starter/src/main/java/com/gg/starter/HelloAutoConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../boot-starter/starter-02/hello-springboot-starter/src/main/java/com/gg/starter/HelloProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../boot-starter/starter-02/hello-springboot-starter/src/main/java/com/gg/starter/HelloProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../boot-starter/starter-02/hello-springboot-starter/src/main/java/com/gg/starter/HelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../boot-starter/starter-02/hello-springboot-starter/src/main/java/com/gg/starter/HelloService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../boot-starter/starter-02/springboot-starter/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../boot-starter/starter-02/springboot-starter/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../boot-starter/starter-02/use-hello-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../boot-starter/starter-02/use-hello-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../boot-starter/starter-02/use-hello-starter/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../boot-starter/starter-02/use-hello-starter/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello_jar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hello_jar/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello_jar/out/hello_jar/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../../redis/sample/jedis=demo/META-INF/MANIFEST.MF" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,8 +134,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/agent02/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="44" column="40" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
+            <state relative-caret-position="351">
+              <caret line="101" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="101" />
+              <folding>
+                <element signature="n#build#0;n#project#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -169,6 +254,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,15 +267,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../src_code/src_skywalking6/skywalking-6.0.0-GA" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -265,16 +350,18 @@
       <updated>1556509077794</updated>
       <workItem from="1556509087932" duration="27350000" />
       <workItem from="1556627063721" duration="1229000" />
+      <workItem from="1558412678917" duration="465000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28579000" />
+    <option name="totallyTimeSpent" value="29044000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1384" height="716" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20992367" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21374045" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -432,8 +519,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/agent02/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="44" column="40" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
+        <state relative-caret-position="351">
+          <caret line="101" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="101" />
+          <folding>
+            <element signature="n#build#0;n#project#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>

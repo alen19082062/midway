@@ -61,7 +61,6 @@ public class DubboConsumerApplication {
         ApplicationContext ctx = SpringApplication.run(DubboConsumerApplication.class, args);
         System.out.println("Running class full name : " + DubboConsumerApplication.class.getCanonicalName());
 
-        //所有的bean,参考：http://412887952-qq-com.iteye.com/blog/2314051
         String[] beanNames = ctx.getBeanDefinitionNames();
         //String[] beanNames = ctx.getBeanNamesForAnnotation(RestController.class);//所有添加该注解的bean
         System.out.println("====================== " );
