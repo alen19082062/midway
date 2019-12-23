@@ -5,8 +5,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-// @RequestMapping("/aopController")
-public class AopController {
+public class WebController {
 
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
     public String sayHello(String name) {

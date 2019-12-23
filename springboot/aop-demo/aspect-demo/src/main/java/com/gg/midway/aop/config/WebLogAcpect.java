@@ -1,4 +1,4 @@
-package com.gg.midway.aop.web;
+package com.gg.midway.aop.config;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.AfterReturning;

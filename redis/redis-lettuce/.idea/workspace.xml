@@ -2,167 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad8ea09f-b211-4dbb-9b5f-42e1cd97beba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../dubbo27/demo/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../dubbo27/demo/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../dubbo27/demo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../dubbo27/demo/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../dubbo27/demo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../dubbo27/demo/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../dubbo27/demo/demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../dubbo27/demo/dubbo-api/dubbo-api.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../dubbo27/demo/dubbo-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../dubbo27/demo/dubbo-api/src/main/java/com/gg/api/service/hello/HelloService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../dubbo27/demo/dubbo-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../dubbo27/demo/dubbo-consumer/src/main/java/web/DubboConsumerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../dubbo27/demo/dubbo-consumer/src/main/java/web/controller/DemoConsumerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../dubbo27/demo/dubbo-consumer/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../dubbo27/demo/dubbo-provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../dubbo27/demo/dubbo-provider/src/main/java/provider/DubboProviderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../dubbo27/demo/dubbo-provider/src/main/java/provider/service/impl/HelloServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../dubbo27/demo/dubbo-provider/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../dubbo27/demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lettuce/src/main/java/com/gg/midway/lettuce/config/RedisCacheAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lettuce/src/main/java/com/gg/midway/lettuce/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lettuce/src/main/java/com/gg/midway/lettuce/dao/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lettuce/src/main/java/com/gg/midway/lettuce/util/RedisUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lettuce/src/main/java/com/gg/midway/lettuce/web/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-lettuce.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-session/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-session/spring-session.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-session/src/main/java/com/gg/midway/lettuce/SessionApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-session/src/main/java/com/gg/midway/lettuce/config/RedisCacheAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-session/src/main/java/com/gg/midway/lettuce/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-session/src/main/java/com/gg/midway/lettuce/dao/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-session/src/main/java/com/gg/midway/lettuce/util/RedisUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-session/src/main/java/com/gg/midway/lettuce/web/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-session/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__io_lettuce_lettuce_core_5_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__io_netty_netty_buffer_4_1_36_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__io_netty_netty_codec_4_1_36_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__io_netty_netty_common_4_1_36_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__io_netty_netty_handler_4_1_36_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__io_netty_netty_resolver_4_1_36_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__io_netty_netty_transport_4_1_36_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__io_projectreactor_reactor_core_3_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_16_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__org_springframework_spring_aop_5_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__org_springframework_spring_beans_5_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__org_springframework_spring_context_5_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__org_springframework_spring_core_5_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__org_springframework_spring_expression_5_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__org_springframework_spring_oxm_5_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__org_springframework_spring_test_5_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__org_springframework_spring_tx_5_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__org_springframework_spring_web_5_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/demo/src/main/java/com/gg/midway/redis/demo/config/ClusterRedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/demo/src/main/java/com/gg/midway/redis/demo/config/SentinelRedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/demo/src/main/java/com/gg/midway/redis/demo/config/StandaloneRedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/demo/src/main/java/com/gg/midway/redis/demo/provider/ICacheProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/demo/src/main/java/com/gg/midway/redis/demo/provider/impl/JedisCacheProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/demo/src/main/java/com/gg/midway/redis/demo/web/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/demo/src/main/resources/application-cluster.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/demo/src/main/resources/application-sentinel.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/demo/src/main/resources/application-standalone.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/jedisdemo/jedisdemo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/jedisdemo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/jedisdemo/src/main/java/com/gg/midway/jedis/JedisPoolTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/jedisdemo/src/main/java/com/gg/midway/jedis/JedisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/jedisdemo/src/main/java/com/gg/midway/jedis/RedisConf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/lettuce/lettuce.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/lettuce/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/lettuce/src/main/java/com/gg/midway/lettuce/DemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/lettuce/src/main/java/com/gg/midway/lettuce/config/RedisCacheAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/lettuce/src/main/java/com/gg/midway/lettuce/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/lettuce/src/main/java/com/gg/midway/lettuce/dao/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/lettuce/src/main/java/com/gg/midway/lettuce/util/RedisUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/lettuce/src/main/java/com/gg/midway/lettuce/web/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample/lettuce/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../boot-starter/starter-02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../boot-starter/starter-02/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../boot-starter/starter-02/hello-springboot-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../boot-starter/starter-02/hello-springboot-starter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../boot-starter/starter-02/hello-springboot-starter/src/main/java/com/gg/starter/HelloAutoConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../boot-starter/starter-02/hello-springboot-starter/src/main/java/com/gg/starter/HelloAutoConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../boot-starter/starter-02/hello-springboot-starter/src/main/java/com/gg/starter/HelloProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../boot-starter/starter-02/hello-springboot-starter/src/main/java/com/gg/starter/HelloProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../boot-starter/starter-02/hello-springboot-starter/src/main/java/com/gg/starter/HelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../boot-starter/starter-02/hello-springboot-starter/src/main/java/com/gg/starter/HelloService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../boot-starter/starter-02/springboot-starter/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../boot-starter/starter-02/springboot-starter/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../boot-starter/starter-02/use-hello-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../boot-starter/starter-02/use-hello-starter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../boot-starter/starter-02/use-hello-starter/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../boot-starter/starter-02/use-hello-starter/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../examples/dubbo-rocket-nacos-sentinel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../examples/dubbo-rocket-nacos-sentinel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../examples/dubbo-rocket-nacos-sentinel/dubbo-consumer/src/main/java/com/gg/consumer/web/DubboConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../examples/dubbo-rocket-nacos-sentinel/dubbo-consumer/src/main/java/com/gg/consumer/web/DubboConsumerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../examples/dubbo-zk-springboot/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../examples/dubbo-zk-springboot/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../examples/dubbo-zk-springboot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../examples/dubbo-zk-springboot/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sample/jedis=demo/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../work/agent/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../work/agent/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../work/hello_jar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../work/hello_jar/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../work/hello_jar/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../work/hello_jar/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cache/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cache/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cache/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cache/cache/src/main/java/com/gg/midway/cache/config/RedisCacheConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cache/cache/src/main/java/com/gg/midway/cache/dao/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cache/cache/src/main/java/com/gg/midway/cache/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cache/cache/src/main/java/com/gg/midway/cache/web/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cache/spring-cache.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lettuce/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lettuce/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -175,62 +25,33 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+            <state relative-caret-position="330">
+              <caret line="11" selection-start-line="11" selection-end-line="14" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lettuce/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="7" column="34" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-session/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="18" column="23" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-session/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="4" column="31" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-session/src/main/java/com/gg/midway/lettuce/util/RedisUtil.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-session/src/main/java/com/gg/midway/lettuce/config/RedisCacheAutoConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-session/src/main/java/com/gg/midway/lettuce/dao/User.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-session/src/main/java/com/gg/midway/lettuce/web/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1380">
-              <caret line="58" column="58" selection-start-line="58" selection-start-column="58" selection-end-line="58" selection-end-column="58" />
+            <state relative-caret-position="390">
+              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -259,16 +80,59 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lettuce/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1320">
-              <caret line="44" selection-start-line="44" selection-end-line="51" selection-end-column="12" />
+            <state relative-caret-position="270">
+              <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lettuce/src/main/java/com/gg/midway/lettuce/config/RedisConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="27" column="47" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lettuce/src/main/java/com/gg/midway/lettuce/config/RedisCacheAutoConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lettuce/src/main/java/com/gg/midway/lettuce/web/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="6" column="62" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lettuce/src/main/java/com/gg/midway/lettuce/LettuceApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="23" selection-start-line="11" selection-start-column="8" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -287,11 +151,12 @@
         <option value="$PROJECT_DIR$/lettuce/src/main/java/com/gg/midway/lettuce/web/Controller.java" />
         <option value="$PROJECT_DIR$/lettuce/src/main/java/com/gg/midway/lettuce/LettuceApplication.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/lettuce/pom.xml" />
         <option value="$PROJECT_DIR$/spring-session/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/spring-session/src/main/java/com/gg/midway/lettuce/web/Controller.java" />
         <option value="$PROJECT_DIR$/spring-session/pom.xml" />
         <option value="$PROJECT_DIR$/spring-session/src/main/java/com/gg/midway/lettuce/SessionApplication.java" />
+        <option value="$PROJECT_DIR$/lettuce/src/main/java/com/gg/midway/lettuce/config/newConf.java" />
+        <option value="$PROJECT_DIR$/lettuce/pom.xml" />
       </list>
     </option>
   </component>
@@ -301,10 +166,15 @@
         <option name="mavenHome" value="D:/dev/maven36" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-17" />
+    <option name="y" value="52" />
     <option name="width" value="1346" />
     <option name="height" value="658" />
   </component>
@@ -314,7 +184,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -322,11 +192,37 @@
               <item name="redis-lettuce" type="b2602c69:ProjectViewProjectNode" />
               <item name="redis-lettuce" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="redis-lettuce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redis-lettuce" type="462c0819:PsiDirectoryNode" />
+              <item name="lettuce" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redis-lettuce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redis-lettuce" type="462c0819:PsiDirectoryNode" />
+              <item name="lettuce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redis-lettuce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redis-lettuce" type="462c0819:PsiDirectoryNode" />
+              <item name="lettuce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redis-lettuce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redis-lettuce" type="462c0819:PsiDirectoryNode" />
+              <item name="lettuce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -337,18 +233,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../dubbo27/demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\git_code\19082062\midway\redis\redis-lettuce\spring-session\src\main\java\com\gg\midway\lettuce" />
-      <recent name="F:\git_code\19082062\midway\redis\redis-lettuce\spring-session\src\main\resources" />
-      <recent name="F:\git_code\19082062\midway\redis\redis-lettuce\lettuce\src\main\java\com\gg\midway\lettuce" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\git_code\19082062\midway\redis\redis-lettuce\lettuce\src\main\resources" />
+      <recent name="F:\git_code\19082062\midway\redis\redis-lettuce\lettuce\src\main\java" />
       <recent name="F:\git_code\19082062\midway\redis\redis-lettuce" />
-      <recent name="F:\git_code\19082062\midway\redis\redis-lettuce\lettuce" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.gg.midway.lettuce" />
@@ -356,10 +250,12 @@
       <recent name="com.gg.midway.lettuce.util" />
       <recent name="com.gg.midway.lettuce.dao" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\git_code\19082062\midway\redis\redis-lettuce\lettuce\src\main\resources" />
-      <recent name="F:\git_code\19082062\midway\redis\redis-lettuce\lettuce\src\main\java" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\git_code\19082062\midway\redis\redis-lettuce\spring-session\src\main\java\com\gg\midway\lettuce" />
+      <recent name="F:\git_code\19082062\midway\redis\redis-lettuce\spring-session\src\main\resources" />
+      <recent name="F:\git_code\19082062\midway\redis\redis-lettuce\lettuce\src\main\java\com\gg\midway\lettuce" />
       <recent name="F:\git_code\19082062\midway\redis\redis-lettuce" />
+      <recent name="F:\git_code\19082062\midway\redis\redis-lettuce\lettuce" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -378,7 +274,7 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.12951334" />
+    <option name="contentProportion" value="0.15698586" />
   </component>
   <component name="RunManager" selected="Spring Boot.SessionApplication">
     <configuration name="LettuceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -420,16 +316,19 @@
       <workItem from="1558540329072" duration="16561000" />
       <workItem from="1558885869068" duration="2027000" />
       <workItem from="1559014939822" duration="637000" />
+      <workItem from="1559528013585" duration="4642000" />
+      <workItem from="1571134072851" duration="2216000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19225000" />
+    <option name="totallyTimeSpent" value="26083000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1384" height="716" extended-state="6" />
+    <frame x="-17" y="52" width="1346" height="658" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25419846" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2672956" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -473,40 +372,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lettuce/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lettuce/src/main/java/com/gg/midway/lettuce/Controller.java" />
     <entry file="file://$PROJECT_DIR$/lettuce/src/main/java/com/gg/midway/lettuce/DemoApplication.java" />
     <entry file="file://$PROJECT_DIR$/lettuce/src/main/java/com/gg/midway/lettuce/RedisConfig.java" />
     <entry file="file://$PROJECT_DIR$/lettuce/src/main/java/com/gg/midway/lettuce/User.java" />
     <entry file="file://$PROJECT_DIR$/lettuce/src/main/java/com/gg/midway/lettuce/RedisUtil.java" />
     <entry file="file://$PROJECT_DIR$/lettuce/src/main/java/com/gg/midway/lettuce/RedisCacheAutoConfiguration.java" />
-    <entry file="file://$PROJECT_DIR$/lettuce/src/main/java/com/gg/midway/lettuce/config/RedisConfig.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lettuce/src/main/java/com/gg/midway/lettuce/config/RedisCacheAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/lettuce/src/main/java/com/gg/midway/lettuce/dao/User.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/lettuce/src/main/java/com/gg/midway/lettuce/util/RedisUtil.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lettuce/src/main/java/com/gg/midway/lettuce/web/Controller.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lettuce/src/main/java/com/gg/midway/lettuce/LettuceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="12" column="76" selection-start-line="12" selection-start-column="76" selection-end-line="12" selection-end-column="76" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lettuce/src/test/java/com/gg/midway/lettuce/LettuceApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -528,13 +404,6 @@
             <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -565,6 +434,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lettuce/src/main/java/com/gg/midway/lettuce/config/newConf.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" selection-start-line="11" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lettuce/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-session/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spring-session/src/main/java/com/gg/midway/lettuce/config/RedisConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -585,17 +476,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lettuce/pom.xml">
+    <entry file="file://$PROJECT_DIR$/lettuce/src/main/java/com/gg/midway/lettuce/config/RedisConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="44" selection-start-line="44" selection-end-line="51" selection-end-column="12" />
+        <state relative-caret-position="510">
+          <caret line="27" column="47" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-session/pom.xml">
+    <entry file="file://$PROJECT_DIR$/lettuce/src/main/java/com/gg/midway/lettuce/config/RedisCacheAutoConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="23" />
+        <state relative-caret-position="240">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lettuce/src/main/java/com/gg/midway/lettuce/web/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="62" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lettuce/src/main/java/com/gg/midway/lettuce/LettuceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="23" selection-start-line="11" selection-start-column="8" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lettuce/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-end-line="16" />
         </state>
       </provider>
     </entry>
